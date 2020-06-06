@@ -1,0 +1,59 @@
+ClrDraw
+For(A,1,19
+For(B,1,11
+Pxl-Change(5B,4A
+End
+End
+{0,2,80,2,0,2,0,42,0,22,8,22,0,42,16,42,0,52,16,52,0,62,80,62,8,12,32,12,8,32,16,32,16,22,16,32,16,42,16,52,24,12,24,22,24,32,32,32,24,42,24,62,32,22,48,22,32,42,48,42,32,52,48,52,40,12,40,22,40,32,40,42,48,12,72,12
+For(θ,1,73,4
+For(I,–1,0
+Line(abs(Ans(θ)+80I),Ans(θ+1),abs(Ans(θ+2)+80I),Ans(θ+3
+End
+End
+StorePic 1
+Text(–1,32,23,"PACMAN
+Text(52,33,"19DO
+Pause 
+While I<4
+ClrDraw
+RecallPic 1
+Text(57,82,sub(">>>    ",I,5
+DelVar BDelVar F36→C
+32→D
+39→E
+1→A
+C→G
+D→H
+While C-4>E+4<E-5>F+6<F
+Text(–1,D,C," 
+If not(B
+StorePic 1
+If not(pxl-Test(D,4G-3C+2
+G→C
+If not(pxl-Test(5H-4D+3,C
+H→D
+If C=1
+74→C
+If C=75
+2→C
+Text(–1,D,C,sub("><v^--!!",A+4B,1
+0
+If not(fPart((C-2)/8+.1D-.2
+getKey
+(Ans=24)+3(Ans=25)+2(Ans=26)+4(Ans=34
+If Ans
+Ans→A
+C-(A=1 and C)+(A=2 and C<88→G
+D-(A=3 and D)+(A=4 and D<55→H
+If J<25not(B
+E-(C<E)+(C>E→E
+If J<25not(B
+F-(D<F)+(D>F→F
+Text(F,E,sub(" G     ",1+2B,2+3B
+If B
+RecallPic 1
+1-B→B
+1+J(J<30→J
+End
+I+1→I
+End
