@@ -1,0 +1,46 @@
+ClrDraw
+DelVar ADelVar B4→C
+C→F
+C→H
+8→D
+D→G
+D→I
+{0→L₁
+1→K
+Repeat Bpxl-Test(8C,1+6D
+Text(–1,8C,6D,"O
+If sum(Ans={24,25,26,34
+Ans→B
+While C=H and D=I
+While pxl-Test(8H+2,6I
+randInt(0,7→H
+randInt(0,15→I
+End
+Text(–1,8H,6I,"*
+A+1→A
+End
+While A<dim(L₁
+L₁(A→E
+If E
+Text(–1,8F,6G," 
+F+(E=34)-(E=25
+Ans(Ans<8)+8(Ans<0→F
+G-(E=24)+(E=26
+Ans(Ans<16)+16(Ans<0→G
+A→dim(L₁
+End
+C+(B=34)-(B=25
+If Ans<0>7
+abs(7K-C
+Ans→C
+D-(B=24)+(B=26
+If Ans<0>15
+abs(15K-D
+Ans→D
+augment({B},L₁→L₁
+getKey
+Ansnot(sum({2,9}=abs(Ans-B
+If Ans=105
+Pause 
+End
+Disp A
