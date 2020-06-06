@@ -1,0 +1,19 @@
+GridOff
+Menu("","GAME",0,"MATH",1
+Lbl 0
+AxesOff
+Full
+PlotsOff 
+FnOff 
+ZoomSto
+0→Xmin
+94→Xmax
+0→Ymin
+62→Ymax
+Disp 
+Return
+Lbl 1
+FnOn 
+AxesOn
+ZoomRcl
+Disp 
