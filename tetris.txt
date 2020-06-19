@@ -10,7 +10,7 @@ End
 ClrDraw
 Vertical 0
 Vertical 50
-Text(–1,5,56,"Tetris
+Text(­1,5,56,"TETRIS
 For(A,54,92,2
 Pt-On(A,60
 Pt-On(A,48
@@ -19,7 +19,8 @@ For(A,49,59,2
 Pt-On(53,A
 Pt-On(93,A
 End
-Text(18,58,"Level
+Text(18,58,"LEVEL
+Text(18,80,"01
 For(A,79,87,2
 Pt-On(A,45
 Pt-On(A,37
@@ -28,34 +29,33 @@ For(A,38,44,2
 Pt-On(78,A
 Pt-On(88,A
 End
-Text(18,80,"01
 For(A,59,87,2
 Pt-On(A,34
 Pt-On(A,20
 Pt-On(A,17
 Pt-On(A,9
 End
-For(A,10,16,2
-Pt-On(58,A
-Pt-On(88,A
-End
 For(A,21,33,2
 Pt-On(58,A
 Pt-On(88,A
 End
 Text(46,60,"0000000
-Text(57,65,"menu
-Line(63,0,63,4
-Line(64,5,82,5
-Line(83,4,83,0
+For(A,10,16,2
+Pt-On(58,A
+Pt-On(88,A
+End
+Text(57,65,"MENU
+Line(63,0,63,5
+Line(64,6,80,6
+Line(81,0,81,5
 DelVar CDelVar DDelVar EDelVar FDelVar GDelVar HDelVar IDelVar N1→O
 randInt(1,7→L
 1→A
 18→B
 17→M
-Repeat not(A(Ans=14=4
+Repeat not(A(Ans=14 or C=4
 getKey
-Repeat C=14=2
+Repeat C=14 or B=2
 If Ans
 Then
 1→[A](A,B
@@ -69,7 +69,7 @@ If B<5
 For(E,M-2,17
 If [A](3,E)[A](4,E)[A](5,E)[A](6,E)[A](7,E)[A](8,E)[A](9,E)[A](10,E)[A](11,E)[A](12,E)[A](13,E)[A](14,E
 Then
-For(F,E,M-2,–1
+For(F,E,M-2,­1
 For(D,3,14
 [A](D,F-1→[A](D,F
 Pt-On(4D-9,69-4F,2
@@ -77,7 +77,7 @@ Pt-Off(4D-9,69-4F,1+not(Ans
 End
 End
 G+1→G
-N+10G→N
+N+10³G→N
 Text(46,84-4int(log(N)),N
 1+int(N/5000→O
 Text(18,84-4int(log(O)),O
@@ -86,38 +86,29 @@ End
 End
 1→D
 DelVar E1→G
-–1→F
+­1→F
 Ans→H
 1→I
 If L=1
-Then
 DelVar F1→H
-End
 If L=2
-Then
 DelVar GDelVar I2→F
-End
 If L=3
 DelVar G
 If L=4
-Then
 DelVar GDelVar H
-End
 If L=5
-Then
-DelVar I
-1→F
-End
+DelVar I1→F
 If L=6
 DelVar F
 If L=7
 Then
 DelVar F1→H
-–1→D
+­1→D
 End
 randInt(1,7→L
-Text(–1,30,64,"   
-Text(–1,33,64,"   
+Text(­1,30,64,"   
+Text(­1,33,64,"   
 If L=1
 Then
 Text(33,70,"▫▫
@@ -143,31 +134,29 @@ Text(33,72,"▫▫
 Pt-On(69,29,2
 Pt-On(73,29,2
 End
-.4O→J
-Ans→K
-8→A
+DelVar K8→A
 2→B
 End
-Repeat C=14Ans and (K=JC
-Repeat C=14=25
+Repeat C=14 or Ansnot(CK
+Repeat C=14 or C=25 or Ans
 Pt-On(4A-9,69-4B,2
 Pt-On(4A+4D-9,69-4B-4E,2
 Pt-On(4A+4F-9,69-4B-4G,2
 Pt-On(4A+4H-9,69-4B-4I,2
 getKey→C
-If Ans≥10
+If Ans or K≥25-O
 Then
 Pt-Off(4A-9,69-4B,2
 Pt-Off(4A+4D-9,69-4B-4E,2
 Pt-Off(4A+4F-9,69-4B-4G,2
 Pt-Off(4A+4H-9,69-4B-4I,2
-If C=34≥10
+If C=34 or K≥25-O
 Then
 B+1→B
-DelVar K
+­1→K
 End
 End
-K+J→K
+K+1→K
 A+(C=26)-(C=24→A
 [A](A,B)+[A](A+D,B+E)+[A](A+F,B+G)+[A](A+H,B+I
 End
@@ -175,31 +164,31 @@ DelVar YIf C=25
 Then
 E→Y
 D→E
-–Y→D
+­Y→D
 G→Y
 F→G
-–Y→F
+­Y→F
 I→Y
 H→I
-–Y→H
-–3→Y
+­Y→H
+­3→Y
 End
 For(θ,0,1
-If [A](A,B)(A+D,B+E)(A+F,B+G)(A+H,B+I
+If [A](A,B) or [A](A+D,B+E) or [A](A+F,B+G) or [A](A+H,B+I
 Then
 If θ
-B-(C=34=J→B
-If Y=–3
+B-(C=34 or not(K→B
+If Y=­3
 Then
 D→Y
 E→D
-–Y→E
+­Y→E
 F→Y
 G→F
-–Y→G
+­Y→G
 H→Y
 I→H
-–Y→I
+­Y→I
 Else
 A+(C=24)-(C=26→A
 End
@@ -217,16 +206,16 @@ Then
 If sum(N>⌊TS
 N→⌊TS(3
 SortA(⌊TS
-For(Y,14,0,–1
+For(Y,14,0,­1
 Text(4Y+1,2,"▫▫▫▫▫▫▫▫▫▫▫▫
 End
 For(Y,0,14
-Text(–1,4Y,2,"        
+Text(­1,4Y,2,"        
 End
 For(θ,0,1
 For(A,1,4
 For(B,0,56,8
-Text(–1,B,6A+8,sub("GameOver",A+4θ,1
+Text(­1,B,6A+8,sub("GAMEOVER",A+4θ,1
 End
 End
 End
@@ -240,12 +229,12 @@ Line(6,Y,44,Y,0
 Line(6,62-Y,44,62-Y,0
 End
 4→C
-Repeat C≠2=14
+Repeat C≠2 or Ans=14
 For(θ,0,3
-Text(17+7θ,17,sub("ResumeNew   ScoresQuit  ",1+6θ,6
+Text(17+7θ,17,sub("BACKNEW RANKQUIT",1+4θ,4
 End
 getKey
-Repeat Ans=14=21=105
+Repeat sum(Ans={14,21,105
 Pt-Off(11,13+7C,1+(0<Ans
 C-(Ans=34)+(Ans=25
 Ans+4((Ans<1)-(Ans>4→C
@@ -255,10 +244,10 @@ End
 If C=2 and Ans≠14
 Then
 For(θ,0,1
-Text(–1,7θ+17,17,"    
+Text(­1,7θ+17,17,"    
 End
 For(Y,31,38
-Text(Y,10,"▫   Scores
+Text(Y,10,"▫   RANK
 End
 If sum(⌊TS≥10^7
 Fill(0,⌊TS
@@ -268,10 +257,10 @@ End
 Repeat getKey
 End
 For(θ,0,1
-Text(–1,8θ+17,15,"     
+Text(­1,8θ+17,15,"     
 End
 For(Y,0,7
-Text(38-Y,10,"▫   Scores     
+Text(38-Y,10,"▫   RANK           
 End
 End
 End
