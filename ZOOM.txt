@@ -1,19 +1,18 @@
-GridOff
-Menu("","GAME",0,"MATH",1
+Menu("","GAMES",0,"ZoomRcl",1
 Lbl 0
-AxesOff
-Full
 PlotsOff 
 FnOff 
+GridOff
+Full
+AxesOff
 ZoomSto
 0→Xmin
-94→Xmax
 0→Ymin
-62→Ymax
+1→X
+1→Y
 Disp 
-Return
+Stop
 Lbl 1
+AxesOn 
 FnOn 
-AxesOn
 ZoomRcl
-Disp 
