@@ -1,0 +1,71 @@
+ClrDraw
+Text(­1,0,27,"ENDLESS
+Text(­1,8,21,"ADVENTURE
+Text(­1,31,0,"+=HARD REST=EASY
+Text(57,19,"2019 NINETEENDO
+Repeat Ans
+getKey:End
+DelVar AAns=95→I:1→H:For(G,0,9
+Repeat A<62
+If A≥62:H+1→H
+1→F:ClrDraw
+DelVar B94→X
+29→A:31
+If G=9ornot(G:HorizontalAns
+If G=1:Then
+For(θ,0,X
+Line(θ,Ans,θ,0
+Ans+randInt(­2,2(Ans<60:End:End:If G=2:Then
+60→A:For(θ,0,12:Line(8θ,0,8θ+3,0:End:End:If G=3:Then:51→A:1→B
+Pt-On(1,8,2
+Pt-On(1,16,3
+Pt-On(1,18:22→X:End:If G=4:Then:60→A:For(θ,0,8
+Line(10θ,θ,10θ+4,θ+1:End:End
+If G=5:Then
+95→X:46→A:2→B
+Pt-On(92,13,2
+Pt-On(92,38,2
+Line(1,28,93,28:Line(1,28,1,0
+Line(93,28,93,0:For(θ,0,12
+Line(7θ,39,7θ+1,39
+Line(7θ+2,14,7θ+3,14:End:End
+If G=6:Then
+60→A:48→B
+For(θ,0,28,4
+Pt-On(B,θ
+1.5θ+52
+Line(Ans,0,Ans,31:End:End
+If G=7:Then
+59→A:For(θ,0,6
+Pt-On(14θ+4,4
+Pt-On(14θ,1
+End:End:0:While Ans≤94andG=8
+Line(Ans,0,Ans,30:Ans+randInt(1,6:End:7→J
+Text(0,0,"LvL",G," RUN ",H
+While B≠XandA<62:Pxl-On(A,B
+A→C:B→D
+For(θ,0,5
+getKey→E
+If E=105:Pause :If E≥24andE≤26orE=34:5→θ
+End:B-(E=24andB)+(E=26andB<94→B:F+(ForE=25andpxl-Test(A+1,B→F
+A+(E=34)-not(not(AF→A:F(F<4→F
+Pxl-Off(C,D
+If pxl-Test(A,B)(A≠CorB≠D
+Then:For(θ,0,3
+(G=5){48,92,22,0:If G=5andθ
+{23,92,9,95
+If G=3
+{53,1,46,8
+Ans→L₁
+If A=L₁(1)andB=L₁(2:Then
+L₁(3→C:L₁(4→D
+4→θ:End:End:C→A:D→B:End
+If I(θ≠5
+Pxl-Off(C+1,D
+If G=9
+Pt-Off(J,32
+A+not(Forpxl-Test(A+(A≠62),B(B≠X→A
+J+.5(B≠J)-(B<J→J:If G=9
+Pt-On(J,32
+If G=9andA=30andB=J:62→A
+End:End:End:"
