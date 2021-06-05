@@ -12,7 +12,7 @@ ClrDraw
 Vertical 0
 Vertical 50
 #draw TETRIS
-Text(­1,5,56,"TETRIS
+Text(-1,5,56,"TETRIS
 For(A,54,92,2
 Pt-On(A,60
 Pt-On(A,48
@@ -77,7 +77,7 @@ If B<5
 For(E,M-2,17
 If [A](3,E)[A](4,E)[A](5,E)[A](6,E)[A](7,E)[A](8,E)[A](9,E)[A](10,E)[A](11,E)[A](12,E)[A](13,E)[A](14,E
 Then
-For(F,E,M-2,­1
+For(F,E,M-2,-1
 For(D,3,14
 [A](D,F-1→[A](D,F
 Pt-On(4D-9,69-4F,2
@@ -95,7 +95,7 @@ End
 #setup vars for tetrises
 1→D
 DelVar E1→G
-­1→F
+-1→F
 Ans→H
 1→I
 If L=1
@@ -113,12 +113,12 @@ DelVar F
 If L=7
 Then
 DelVar F1→H
-­1→D
+-1→D
 End
 #determine next tetris
 randInt(1,7→L
-Text(­1,30,64,"   
-Text(­1,33,64,"   
+Text(-1,30,64,"   
+Text(-1,33,64,"   
 #draw next tetris
 If L=1
 Then
@@ -165,7 +165,7 @@ Pt-Off(4A+4H-9,69-4B-4I,2
 If C=34 or K≥25-O #change 25 to modify difficulty (same as on line 159!!)
 Then
 B+1→B
-­1→K
+-1→K
 End
 End
 K+1→K
@@ -176,31 +176,31 @@ DelVar YIf C=25
 Then
 E→Y
 D→E
-­Y→D
+-Y→D
 G→Y
 F→G
-­Y→F
+-Y→F
 I→Y
 H→I
-­Y→H
-­3→Y
+-Y→H
+-3→Y
 End
 For(θ,0,1
 If [A](A,B) or [A](A+D,B+E) or [A](A+F,B+G) or [A](A+H,B+I
 Then
 If θ
 B-(C=34 or not(K→B
-If Y=­3
+If Y=-3
 Then
 D→Y
 E→D
-­Y→E
+-Y→E
 F→Y
 G→F
-­Y→G
+-Y→G
 H→Y
 I→H
-­Y→I
+-Y→I
 Else
 A+(C=24)-(C=26→A
 End
@@ -224,12 +224,12 @@ For(Y,0,14
 Text(57-4Y,2,"▫▫▫▫▫▫▫▫▫▫▫▫
 End
 For(Y,0,14
-Text(­1,4Y,2,"        
+Text(-1,4Y,2,"        
 End
 For(θ,0,1
 For(A,1,4
 For(B,0,56,8
-Text(­1,B,6A+8,sub("GAMEOVER",A+4θ,1
+Text(-1,B,6A+8,sub("GAMEOVER",A+4θ,1
 End
 End
 End
@@ -259,7 +259,7 @@ End
 If C=2 and Ans≠14
 Then
 For(θ,0,1
-Text(­1,7θ+17,17,"    
+Text(-1,7θ+17,17,"    
 End
 For(Y,31,38
 Text(Y,10,"▫   RANK
@@ -273,7 +273,7 @@ End
 Repeat getKey
 End
 For(θ,0,1
-Text(­1,8θ+17,15,"     
+Text(-1,8θ+17,15,"     
 End
 For(Y,0,7
 Text(38-Y,10,"▫   RANK           
