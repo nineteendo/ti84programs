@@ -30,11 +30,11 @@ Ans(Ans<16)+16(Ans<0→G
 A→dim(L₁
 End
 C+(B=34)-(B=25
-If Ans<0>7
+If Ans<0 or Ans>7
 abs(7K-C
 Ans→C
 D-(B=24)+(B=26
-If Ans<0>15
+If Ans<0 or Ans>15
 abs(15K-D
 Ans→D
 augment({B},L₁→L₁
