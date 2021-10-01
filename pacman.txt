@@ -1,59 +1,61 @@
 ClrDraw
-For(A,1,19
-For(B,1,11
-Pxl-Change(5B,4A
-End
-End
-{0,2,80,2,0,2,0,42,0,22,8,22,0,42,16,42,0,52,16,52,0,62,80,62,8,12,32,12,8,32,16,32,16,22,16,32,16,42,16,52,24,12,24,22,24,32,32,32,24,42,24,62,32,22,48,22,32,42,48,42,32,52,48,52,40,12,40,22,40,32,40,42,48,12,72,12
-For(θ,1,73,4
-For(I,–1,0
-Line(abs(Ans(θ)+80I),Ans(θ+1),abs(Ans(θ+2)+80I),Ans(θ+3
+DelVar K10
+For(A,1,18
+For(I,-1,0
+Line(8abs(expr(sub("000000112233344455",A,1))+AnsI),Ansexpr(sub("026450312434145231",A,1)),8abs(expr(sub("015215242243355555",A,1))+AnsI),Ansexpr(sub("426450313536245242",A,1
 End
 End
 StorePic 1
-Text(–1,32,23,"PACMAN
-Text(52,33,"19DO
+Text(-1,34,23,"PACMAN
 Pause 
-While I<4
+Repeat I≥5
 ClrDraw
 RecallPic 1
-Text(57,82,sub(">>>    ",I,5
-DelVar BDelVar F36→C
-32→D
-39→E
+For(A,1,19not(fPart(K/126
+For(B,1,11
+Pt-On(4A,5B
+End
+End
+K+not(fPart(K/126→K
+Text(57,82,sub(">>>---",I,3
 1→A
+DelVar B38→C
+34→D
+C→E
+3→F
+While fPart(K/126) and 7<abs(C-E)+abs(D-F
+C+(A-2)(A≠4→G
+D+(A-3)(A≠1→H
+If pxl-Test(D,4G-3C+2
 C→G
+If pxl-Test(5H-4D+3,C
 D→H
-While C-4>E+4<E-5>F+6<F
-Text(–1,D,C," 
+Text(-1,D,C," 
+K+pxl-Test(5H-4D+3,4G-3C+2→K
 If not(B
 StorePic 1
-If not(pxl-Test(D,4G-3C+2
-G→C
-If not(pxl-Test(5H-4D+3,C
+2+remainder(72+G,74→C
 H→D
-If C=1
-74→C
-If C=75
-2→C
-Text(–1,D,C,sub("><v^--!!",A+4B,1
+Text(-1,D,C,sub(">v<^-!-!",A+4B,1
 0
-If not(fPart((C-2)/8+.1D-.2
-getKey
-(Ans=24)+3(Ans=25)+2(Ans=26)+4(Ans=34
-If Ans
+If not(fPart(C/8+.1D-.65
+getKey-23
+Ans-7(Ans>10
+If Ans=75
+Pause 
+If 1≤Ans and Ans≤4
 Ans→A
-C-(A=1 and C)+(A=2 and C<88→G
-D-(A=3 and D)+(A=4 and D<55→H
 If J<25not(B
+Then
 E-(C<E)+(C>E→E
-If J<25not(B
 F-(D<F)+(D>F→F
-Text(F,E,sub(" G     ",1+2B,2+3B
+End
+Text(-1,F,E,sub(" X",2-B,1
 If B
 RecallPic 1
+Text(1,82,K
 1-B→B
 1+J(J<30→J
 End
-I+1→I
+I+not(not(fPart(K/126→I
 End

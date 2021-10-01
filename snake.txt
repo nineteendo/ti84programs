@@ -1,16 +1,20 @@
 ClrDraw
 DelVar ADelVar B4→C
-C→F
-C→H
 8→D
+C→F
 D→G
+C→H
 D→I
-{0→L₁
 1→K
+DelVar Y{0→L₁
 Repeat Bpxl-Test(8C,1+6D
 Text(–1,8C,6D,"O
-If sum(Ans={24,25,26,34
-Ans→B
+getKey-21
+Ans-7(Ans≥13
+If 77=Ans>ᴇ2
+DelVar YPause 
+If 3≤Ans and Ans≤6 and 2≠abs(B-Ans
+DelVar YAns→B
 While C=H and D=I
 While pxl-Test(8H+2,6I
 randInt(0,7→H
@@ -23,24 +27,19 @@ While A<dim(L₁
 L₁(A→E
 If E
 Text(–1,8F,6G," 
-F+(E=34)-(E=25
-Ans(Ans<8)+8(Ans<0→F
-G-(E=24)+(E=26
-Ans(Ans<16)+16(Ans<0→G
+remainder(8+F+(E-5)(E≥4),8→F
+remainder(16+G-(E=3)+(E=5),16→G
 A→dim(L₁
 End
-C+(B=34)-(B=25
-If Ans<0 or Ans>7
+C+(B-5)(B≥4
+If Ans<0>7
 abs(7K-C
 Ans→C
-D-(B=24)+(B=26
-If Ans<0 or Ans>15
+D-(B=3)+(B=5
+If Ans<0>15
 abs(15K-D
 Ans→D
 augment({B},L₁→L₁
-getKey
-Ansnot(sum({2,9}=abs(Ans-B
-If Ans=105
-Pause 
+Y+1→Y
 End
-Disp A
+A

@@ -1,18 +1,20 @@
-Menu("","GAMES",0,"ZoomRcl",1
+GridOff
+Menu("","prgm",0,"Func",1
 Lbl 0
 PlotsOff 
-FnOff 
-GridOff
-Full
 AxesOff
+FnOff 
+Full
+ΔX→ΔX
+ΔY→ΔY
 ZoomSto
 0→Xmin
+1→ΔX
 0→Ymin
-1→X
-1→Y
+1→ΔY
 Disp 
 Stop
 Lbl 1
-AxesOn 
-FnOn 
 ZoomRcl
+AxesOn
+FnOn 
