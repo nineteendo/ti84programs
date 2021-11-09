@@ -1,0 +1,351 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2067\deflangfe2067{\fonttbl{\f0\froman\fcharset0 Times-Bold;}{\f1\froman\fcharset0 Times-Roman;}{\f2\froman\fprq2\fcharset2 Symbol;}{\f3\fnil\fcharset0 LucidaGrande;}{\f4\fnil\fcharset0 Cambria Math;}{\f5\fnil\fcharset1 Cambria Math;}{\f6\fnil Segoe UI Symbol;}{\f7\froman\fcharset0 Times-Italic;}}
+{\colortbl ;\red0\green0\blue255;\red0\green176\blue80;\red255\green0\blue0;\red251\green2\blue7;\red253\green128\blue8;}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont4\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\nowidctlpar\b\f0\fs22 Chapter Zero - Zoom\par
+Chapter One - Auto Movement\par
+\cf1\b0\f1 ClrDraw\par
+4\f2 ->\f1 C\par
+8\f2 ->\f1 D\par
+C\f2 ->\f1 F\par
+D\f2 ->\f1 G\par
+\lang2060 DelVar Y\par
+Repeat 0\par
+Text(8C,6D,"O\par
+If Y>\f3\lang2067\u7431?\f1\lang2060 2\par
+DelVar YPause\par
+
+\pard\nowidctlpar\tx1043 Text(8F,6G,\rdblquote SPACE SPACE SPACE\par
+
+\pard\nowidctlpar remainder(G+1,16\f2\lang2067 ->\f1\lang2060 G\par
+D+1\par
+If Ans>15\par
+15-D\par
+Ans\f2\lang2067 ->\f1\lang2060 D\par
+Y+1\f2\lang2067 ->\f1\lang2060 Y\par
+End\cf2\par
+\cf0\b\f0 Chapter Two - Manual Movement\par
+\b0\f1 ClrDraw\par
+\cf1 DelVar B\cf0 4\f2\lang2067 ->\f1\lang2060 C\par
+8\f2\lang2067 ->\f1\lang2060 D\par
+C\f2\lang2067 ->\f1\lang2060 F\par
+D\f2\lang2067 ->\f1\lang2060 G\par
+DelVar Y\cf1\{0\f2\lang2067 ->\f1\lang2060 L\f4\u8321?\cf2\f1\par
+\cf0\lang2067 Repeat 0\par
+Text(8C,6D,"O\par
+\cf1 getKey-21\par
+\lang2060 If Ans=13\par
+6\cf2\par
+\cf0 If Y>\f3\lang2067\u7431?\f1\lang2060 2\cf1  or Ans=84\cf2\par
+\cf0 DelVar YPause\par
+\cf1 If 3\f5\u8804?\f1\lang2060 Ans and Ans\f5\u8804?\f1\lang2060 6 and 2\f5\u8800?\f1\lang2060 abs(B-Ans\par
+DelVar YAns\f2\lang2067 ->\f1\lang2060 B\par
+While 3<dim(L\f4\u8321?\f1\par
+L\f4\u8321?\f1 (3\f2\lang2067 ->\f1\lang2060 E\par
+If E\cf2\par
+\cf0 Text(8F,6G,SPACE SPACE SPACE\par
+\cf1 remainder(F+8+(E-5)(E\f5\u8805?\f1\lang2060 4),8\f2\lang2067 ->\f1\lang2060 F\cf2\par
+\cf0 remainder(G+1\cf1 6-(E=3)+(E=5)\cf0 ,16\f2\lang2067 ->\f1\lang2060 G\par
+\cf1 3\f2\lang2067 ->\f1\lang2060 dim(L\f4\u8321?\f1\par
+End\par
+C+(B-5)(B\f5\u8805?\f1\lang2060 4\par
+If Ans>7 or Ans<0\par
+7-C\par
+Ans\f2\lang2067 ->\f1\lang2060 C\cf2\par
+\cf0 D+\cf3\strike 1\cf1\strike0 (B=5)-(B=3\cf2\par
+\cf0 If Ans>15\cf1  or Ans<0\cf2\par
+\cf0 15-D\par
+Ans\f2\lang2067 ->\f1\lang2060 D\cf2\par
+\cf0 Y+1\f2\lang2067 ->\f1\lang2060 Y\par
+\cf1 augment(\{B\},L\f4\u8321?\u8594?\f1 L\f4\u8321?\cf0\f1\par
+\lang2067 End\par
+\b\f0 Chapter Three - Eating Fruit\par
+\b0\f1 ClrDraw\par
+\cf1 DelVar A\cf0 DelVar B4\f2 ->\f1 C\par
+8\f2 ->\f1 D\par
+C\f2 ->\f1 F\par
+D\f2 ->\f1 G\par
+\cf1 C\f2 ->\f1 H\par
+D\f2 ->\f1 I\cf2\par
+\cf0 DelVar Y\{0\f2 ->\f1 L\f4\u8321?\f1\par
+Repeat \cf3\strike 0\cf1\strike0 Bpxl-Test(8C+1,6D\cf2\par
+\cf0 Text(8C,6D,"O\par
+getKey-21\par
+\lang2060 If Ans=13\par
+6\par
+If Y>\u7431?2 or Ans=84\par
+DelVar YPause \par
+If 3\f5\u8804?\f1\lang2060 Ans and Ans\f5\u8804?\f1\lang2060 6 and 2\f5\u8800?\f1\lang2060 abs(B-Ans\par
+DelVar YAns\f2\lang2067 ->\f1\lang2060 B\par
+\cf1 While C=H and D=I\par
+While pxl-Test(8H+3,6I\par
+randInt(0,7\f2\lang2067 ->\f1\lang2060 H\par
+randInt(0,15\f2\lang2067 ->\f1\lang2060 I\par
+End\par
+Text(8H,6I,"+\par
+A+1\f2\lang2067 ->\f1\lang2060 A\par
+End\cf2\par
+\cf0 While \cf4\strike 3\cf1\strike0 A\cf0 <dim(L\f4\u8321?\f1\par
+L\f4\u8321?\f1 (\cf4\strike 3\cf1\strike0 A\cf0\f2\lang2067 ->\f1\lang2060 E\par
+If E\par
+Text(8F,6G,SPACE SPACE SPACE\cf2\par
+\cf0 remainder(F+8+(E-5)(E\f5\u8805?\f1\lang2060 4),8\f2\lang2067 ->\f1\lang2060 F\par
+remainder(G+16-(E=3)+(E=5),16\f2\lang2067 ->\f1\lang2060 G\par
+\cf4\strike 3\cf1\strike0 A\cf0\f2\lang2067 ->\f1\lang2060 dim(L\f4\u8321?\f1\par
+End\par
+C+(B-5)(B\f5\u8805?\f1\lang2060 4\par
+If Ans>7 or Ans<0\par
+7-C\par
+Ans\f2\lang2067 ->\f1\lang2060 C\par
+D-(B=3)+(B=5\par
+If Ans>15 or Ans<0\par
+15-D\par
+Ans\f2\lang2067 ->\f1\lang2060 D\par
+Y+1\f2\lang2067 ->\f1\lang2060 Y\par
+\lang2067 augment(\{B\},L\f6\u8321?\f5\u8594?\f1\lang2067 L\f6\u8321?\f1\par
+\lang2060 End\par
+\cf1 A\cf2\par
+\cf0\b\f0 Chapter Four - Variations\par
+\b0\i\f7 Variation One - CLASSIC\i0\f1\par
+\lang2067 ClrDraw\par
+DelVar ADelVar B4\f2 ->\f1 C\par
+8\f2 ->\f1 D\par
+C\f2 ->\f1 F\par
+D\f2 ->\f1 G\par
+C\f2 ->\f1 H\par
+D\f2 ->\f1 I\par
+\cf1 0\f2 ->\f1 K\cf0\par
+DelVar Y\{0\f2 ->\f1 L\f4\u8321?\f1\par
+Repeat \strike 0\strike0 Bpxl-Test(8C+1,6D\par
+Text(8C,6D,"O\par
+getKey-21\par
+\lang2060 If Ans=13\par
+6\par
+If Y>\u7431?2 or Ans=84\par
+DelVar YPause \par
+If 3\f5\u8804?\f1\lang2060 Ans and Ans\f5\u8804?\f1\lang2060 6 and 2\f5\u8800?\f1\lang2060 abs(B-Ans\par
+DelVar YAns\f2\lang2067 ->\f1\lang2060 B\par
+While C=H and D=I\par
+While pxl-Test(8H+3,6I\par
+randInt(0,7\f2\lang2067 ->\f1\lang2060 H\par
+randInt(0,15\f2\lang2067 ->\f1\lang2060 I\par
+End\par
+Text(8H,6I,"+\par
+A+1\f2\lang2067 ->\f1\lang2060 A\par
+End\par
+While A<dim(L\f4\u8321?\f1\par
+L\f4\u8321?\f1 (A\f2\lang2067 ->\f1\lang2060 E\par
+If E\par
+Text(8F,6G,SPACE SPACE SPACE\par
+remainder(F+8+(E-5)(E\f5\u8805?\f1\lang2060 4),8\f2\lang2067 ->\f1\lang2060 F\par
+remainder(G+16-(E=3)+(E=5),16\f2\lang2067 ->\f1\lang2060 G\par
+A\f2\lang2067 ->\f1\lang2060 dim(L\f4\u8321?\f1\par
+End\par
+C+(B-5)(B\f5\u8805?\f1\lang2060 4\par
+If Ans>7 or Ans<0\par
+\cf1 abs(K\cf0 7-C\par
+Ans\f2\lang2067 ->\f1\lang2060 C\par
+D-(B=3)+(B=5\par
+If Ans>15 or Ans<0\par
+\cf1 abs\cf0 (\cf1 K\cf0 15-D\par
+Ans\f2\lang2067 ->\f1\lang2060 D\par
+Y+1->Y\par
+augment(\{B\},L\f6\u8321?\f5\u8594?\f1\lang2060 L\f6\u8321?\f1\par
+End\par
+A\par
+\i\f7 Variation Two - Better Food\par
+\i0\f1\lang2067 ClrDraw\par
+\cf4\strike DelVar A\cf5\strike0 1-GROWTH\cf1\f2 ->A\cf0\f1\par
+DelVar B4\f2 ->\f1 C\par
+8\f2 ->\f1 D\par
+C\f2 ->\f1 F\par
+D\f2 ->\f1 G\par
+C\f2 ->\f1 H\par
+D\f2 ->\f1 I\par
+0\f2 ->\f1 K\par
+DelVar Y\{0\f2 ->\f1 L\f4\u8321?\f1\par
+Repeat \strike 0\strike0 Bpxl-Test(8C+1,6D\par
+Text(8C,6D,"O\par
+getKey-21\par
+\lang2060 If Ans=13\par
+6\par
+If Y>\u7431?2 or Ans=84\par
+DelVar YPause \par
+If 3\f5\u8804?\f1\lang2060 Ans and Ans\f5\u8804?\f1\lang2060 6 and 2\f5\u8800?\f1\lang2060 abs(B-Ans\par
+DelVar YAns\f2\lang2067 ->\f1\lang2060 B\par
+While C=H and D=I\par
+While pxl-Test(8H+3,6I\par
+randInt(0,7\f2\lang2067 ->\f1\lang2060 H\par
+randInt(0,15\f2\lang2067 ->\f1\lang2060 I\par
+End\par
+Text(8H,6I,"+\par
+A+\cf4\strike 1\cf5\strike0 GROWTH\cf0\f2\lang2067 ->\f1\lang2060 A\par
+End\par
+While A<dim(L\f4\u8321?\f1\par
+L\f4\u8321?\f1 (A\f2\lang2067 ->\f1\lang2060 E\par
+If E\par
+Text(8F,6G,SPACE SPACE SPACE\par
+remainder(F+8+(E-5)(E\f5\u8805?\f1\lang2060 4),8\f2\lang2067 ->\f1\lang2060 F\par
+remainder(G+16-(E=3)+(E=5),16\f2\lang2067 ->\f1\lang2060 G\par
+A\f2\lang2067 ->\f1\lang2060 dim(L\f4\u8321?\f1\par
+End\par
+C+(B-5)(B\f5\u8805?\f1\lang2060 4\par
+If Ans>7 or Ans<0\par
+abs(K7-C\par
+Ans\f2\lang2067 ->\f1\lang2060 C\par
+D-(B=3)+(B=5\par
+If Ans>15 or Ans<0\par
+abs(K15-D\par
+Ans\f2\lang2067 ->\f1\lang2060 D\par
+Y+1->Y\par
+\lang2067 augment(\{B\},L\f6\u8321?\f5\u8594?\f1\lang2067 L\f6\u8321?\f1\par
+\lang2060 End\par
+A\i\f7\par
+Variation Three - Longest Snake\par
+\i0\f1 ClrDraw\par
+\cf5 LENGTH-GROWTH\cf0\f2\lang2067 ->\f1\lang2060 A\par
+DelVar B4\f2\lang2067 ->\f1\lang2060 C\par
+8\f2\lang2067 ->\f1\lang2060 D\par
+C\f2\lang2067 ->\f1\lang2060 F\par
+D\f2\lang2067 ->\f1\lang2060 G\par
+C\f2\lang2067 ->\f1\lang2060 H\par
+D\f2\lang2067 ->\f1\lang2060 I\par
+0\f2\lang2067 ->\f1\lang2060 K\par
+DelVar Y\{0\f2\lang2067 ->\f1\lang2060 L\f4\u8321?\f1\par
+\lang2067 Repeat \strike 0\strike0 Bpxl-Test(8C+1,6D\par
+Text(8C,6D,"O\par
+getKey-21\par
+\lang2060 If Ans=13\par
+6\par
+If Y>\u7431?2 or Ans=84\par
+DelVar YPause \par
+If 3\f5\u8804?\f1\lang2060 Ans and Ans\f5\u8804?\f1\lang2060 6 and 2\f5\u8800?\f1\lang2060 abs(B-Ans\par
+DelVar YAns\f2\lang2067 ->\f1\lang2060 B\par
+While C=H and D=I\par
+While pxl-Test(8H+3,6I\par
+randInt(0,7\f2\lang2067 ->\f1\lang2060 H\par
+randInt(0,15\f2\lang2067 ->\f1\lang2060 I\par
+End\par
+Text(8H,6I,"+\par
+A+GROWTH\f2\lang2067 ->\f1\lang2060 A\par
+End\par
+While A<dim(L\f4\u8321?\f1\par
+L\f4\u8321?\f1 (A\f2\lang2067 ->\f1\lang2060 E\par
+If E\par
+Text(8F,6G,SPACE SPACE SPACE\par
+remainder(F+8+(E-5)(E\f5\u8805?\f1\lang2060 4),8\f2\lang2067 ->\f1\lang2060 F\par
+remainder(G+16-(E=3)+(E=5),16\f2\lang2067 ->\f1\lang2060 G\par
+A\f2\lang2067 ->\f1\lang2060 dim(L\f4\u8321?\f1\par
+End\par
+C+(B-5)(B\f5\u8805?\f1\lang2060 4\par
+If Ans>7 or Ans<0\par
+abs(K7-C\par
+Ans\f2\lang2067 ->\f1\lang2060 C\par
+D-(B=3)+(B=5\par
+If Ans>15 or Ans<0\par
+abs(K15-D\par
+Ans\f2\lang2067 ->\f1\lang2060 D\par
+Y+1->Y\par
+\lang2067 augment(\{B\},L\f6\u8321?\f5\u8594?\f1\lang2067 L\f6\u8321?\f1\par
+\lang2060 End\par
+A\par
+\i\f7 Variation Four - TI-82 Edition\par
+\i0\f1 ClrDraw\par
+LENGTH-GROWTH\f2\lang2067 ->\f1\lang2060 A\par
+DelVar B4\f2\lang2067 ->\f1\lang2060 C\par
+\cf4\strike 8\cf1\strike0 11\cf0\f2\lang2067 ->\f1\lang2060 D\par
+C\f2\lang2067 ->\f1\lang2060 F\par
+D\f2\lang2067 ->\f1\lang2060 G\par
+C\f2\lang2067 ->\f1\lang2060 H\par
+D\f2\lang2067 ->\f1\lang2060 I\par
+0\f2\lang2067 ->\f1\lang2060 K\par
+DelVar Y\{0\f2\lang2067 ->\f1\lang2060 L\f4\u8321?\f1\par
+\lang2067 Repeat \strike 0\strike0 Bpxl-Test(\cf4\strike 8\cf1\strike0 6\cf0 C+1,\cf4\strike 6\cf1\strike0 4\cf0 D\par
+Text(\cf4\strike 8\cf1\strike0 6\cf0 C,\cf4\strike 6\cf1\strike0 4\cf0 D,"O\par
+getKey-21\par
+\lang2060 If Ans=13\par
+6\par
+If Y>\u7431?2 or Ans=84\par
+DelVar YPause \par
+If 3\f5\u8804?\f1\lang2060 Ans and Ans\f5\u8804?\f1\lang2060 6 and 2\f5\u8800?\f1\lang2060 abs(B-Ans\par
+DelVar YAns\f2\lang2067 ->\f1\lang2060 B\par
+While C=H and D=I\par
+While pxl-Test(\cf4\strike\lang2067 8\cf1\strike0 6\cf0\lang2060 H+3,\cf4\strike\lang2067 6\cf1\strike0 4\cf0\lang2060 I\par
+randInt(0,\cf4\strike 7\cf1\strike0 9\cf0\f2\lang2067 ->\f1\lang2060 H\par
+randInt(0,\cf4\strike 15\cf1\strike0 22\cf0\f2\lang2067 ->\f1\lang2060 I\par
+End\par
+Text(\cf4\strike 8\cf1\strike0 6\cf0 H,\cf4\strike 6\cf1\strike0 4\cf0 I,\rdblquote +\par
+A+GROWTH\f2\lang2067 ->\f1\lang2060 A\par
+End\par
+While A<dim(L\f4\u8321?\f1\par
+L\f4\u8321?\f1 (A\f2\lang2067 ->\f1\lang2060 E\par
+If E\par
+Text(\cf4\strike 8\cf1\strike0 6\cf0 F,\cf4\strike 6\cf1\strike0 4\cf0 G,\rdblquote    \par
+remainder(F+\cf4\strike 8\cf1\strike0 10\cf0 +(E-5)(E\f5\u8805?\f1\lang2060 4),\cf4\strike 8\cf1\strike0 10\cf0\f2\lang2067 ->\f1\lang2060 F\par
+remainder(G+\cf4\strike 16\cf1\strike0 23\cf0 -(E=3)+(E=5),\cf4\strike 16\cf1\strike0 23\cf0\f2\lang2067 ->\f1\lang2060 G\par
+A\f2\lang2067 ->\f1\lang2060 dim(L\f4\u8321?\f1\par
+End\par
+C+(B-5)(B\f5\u8805?\f1\lang2060 4\par
+If Ans>\cf4\strike 7\cf1\strike0 9\cf0  or Ans<0\par
+
+\pard\nowidctlpar\qj abs(K\cf4\strike 7\cf1\strike0 9\cf0 -C\par
+
+\pard\nowidctlpar Ans\f2\lang2067 ->\f1\lang2060 C\par
+D-(B=3)+(B=5\par
+If Ans>\cf4\strike 15\cf1\strike0 22\cf0  or Ans<0\par
+abs(K\cf4\strike 15\cf1\strike0 22\cf0 -D\par
+Ans\f2\lang2067 ->\f1\lang2060 D\par
+Y+1->Y\par
+\lang2067 augment(\{B\},L\f6\u8321?\f5\u8594?\f1\lang2067 L\f6\u8321?\f1\par
+\lang2060 End\par
+A\par
+\i\f7 Variation Five - TI-84 Edition\par
+\i0\f1 ClrDraw\par
+LENGTH-GROWTH\f2\lang2067 ->\f1\lang2060 A\par
+DelVar B4\f2\lang2067 ->\f1\lang2060 C\par
+\cf4\strike 11\cf1\strike0 8\cf0\f2\lang2067 ->\f1\lang2060 D\par
+C\f2\lang2067 ->\f1\lang2060 F\par
+D\f2\lang2067 ->\f1\lang2060 G\par
+C\f2\lang2067 ->\f1\lang2060 H\par
+D\f2\lang2067 ->\f1\lang2060 I\par
+0\f2\lang2067 ->\f1\lang2060 K\par
+DelVar Y\{0\f2\lang2067 ->\f1\lang2060 L\f4\u8321?\f1\par
+\lang2067 Repeat \strike 0\strike0 Bpxl-Test(\cf4\strike 6\cf1\strike0 8\cf0 C+1,\cf4\strike 4\cf1\strike0 6\cf0 D\par
+Text(\cf4\strike 6\cf1\strike0 -1,8\cf0 C,\cf4\strike 4\cf1\strike0 6\cf0 D,"O\par
+getKey-21\par
+\lang2060 If Ans=13\par
+6\par
+If Y>\u7431?2 or Ans=84\par
+DelVar YPause \par
+If 3\f5\u8804?\f1\lang2060 Ans and Ans\f5\u8804?\f1\lang2060 6 and 2\f5\u8800?\f1\lang2060 abs(B-Ans\par
+DelVar YAns\f2\lang2067 ->\f1\lang2060 B\par
+While C=H and D=I\par
+While pxl-Test(6H+\cf4\strike 3\cf1\strike0 2\cf0 ,4I\par
+randInt(0,\cf4\strike 9\cf1\strike0 7\cf0\f2\lang2067 ->\f1\lang2060 H\par
+randInt(0,\cf4\strike 22\cf1\strike0 15\cf0\f2\lang2067 ->\f1\lang2060 I\par
+End\par
+Text(\cf4\strike 6\cf1\strike0 -1,8\cf0 H,\cf4\strike 4\cf1\strike0 6\cf0 I,\rdblquote\cf4\strike +\cf1\strike0 *\cf0\par
+A+GROWTH\f2\lang2067 ->\f1\lang2060 A\par
+End\par
+While A<dim(L\f4\u8321?\f1\par
+L\f4\u8321?\f1 (A\f2\lang2067 ->\f1\lang2060 E\par
+If E\par
+Text(\cf4\strike 6\cf1\strike0 -1,8\cf0 F,\cf4\strike 4\cf1\strike0 6\cf0 G,\rdblquote SPACE\cf4\strike  SPACE SPACE\cf0\strike0\par
+remainder(F+\cf4\strike 10\cf1\strike0 8\cf0 +(E-5)(E\f5\u8805?\f1\lang2060 4),\cf4\strike 10\cf1\strike0 8\cf0\f2\lang2067 ->\f1\lang2060 F\par
+remainder(G+\cf4\strike 23\cf1\strike0 16\cf0 -(E=3)+(E=5),\cf4\strike 23\cf1\strike0 16\cf0\f2\lang2067 ->\f1\lang2060 G\par
+A\f2\lang2067 ->\f1\lang2060 dim(L\f4\u8321?\f1\par
+End\par
+C+(B-5)(B\f5\u8805?\f1\lang2060 4\par
+If Ans>\cf4\strike 9\cf1\strike0 7\cf0  or Ans<0 \par
+abs(\cf4\strike 9\cf1\strike0 7\cf0 K-C\par
+Ans\f2\lang2067 ->\f1\lang2060 C\par
+D-(B=3)+(B=5\par
+If Ans>\cf4\strike 22\cf1\strike0 15\cf0  or Ans<0\par
+abs(\cf4\strike 22\cf1\strike0 K15\cf0 -D\par
+Ans\f2\lang2067 ->\f1\lang2060 D\par
+Y+1->Y\par
+augment(\{B\},L\f6\u8321?\f5\u8594?\f1\lang2060 L\f6\u8321?\f1\par
+\lang2067 End\par
+
+\pard\nowidctlpar\sa200\sl276\slmult1 A\par
+}
+ 
