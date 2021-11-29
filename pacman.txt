@@ -1,61 +1,79 @@
 ClrDraw
 DelVar K10
-For(A,1,18
-For(I,-1,0
-Line(8abs(expr(sub("000000112233344455",A,1))+AnsI),Ansexpr(sub("026450312434145231",A,1)),8abs(expr(sub("015215242243355555",A,1))+AnsI),Ansexpr(sub("426450313536245242",A,1
+For(J,1,17
+For(I,­1,0
+Line(8abs(expr(sub("00000111223344555",J,1))+AnsI),Ansexpr(sub("00256134241524135",J,1)),8abs(expr(sub("05115443223455555",J,1))+AnsI),Ansexpr(sub("50256134352524246",J,1
 End
 End
 StorePic 1
-Text(-1,34,23,"PACMAN
+Text(­1,34,23,"PACMAN
 Pause 
-Repeat I≥5
+Repeat I≥4
 ClrDraw
 RecallPic 1
-For(A,1,19not(fPart(K/126
+If fPart(K/128
+Then
+I+1→I
+Else
+K+1→K
+For(A,1,19
 For(B,1,11
 Pt-On(4A,5B
 End
 End
-K+not(fPart(K/126→K
+End
 Text(57,82,sub(">>>---",I,3
 1→A
-DelVar B38→C
-34→D
-C→E
-3→F
-While fPart(K/126) and 7<abs(C-E)+abs(D-F
-C+(A-2)(A≠4→G
-D+(A-3)(A≠1→H
-If pxl-Test(D,4G-3C+2
-C→G
-If pxl-Test(5H-4D+3,C
-D→H
-Text(-1,D,C," 
-K+pxl-Test(5H-4D+3,4G-3C+2→K
-If not(B
+DelVar B34→C
+C→D
+4+10randInt(0,5→E
+10+8abs(7randInt(0,1)-randInt(0,.1abs(C-E→F
+DelVar GDelVar Hᴇ3→J
 StorePic 1
-2+remainder(72+G,74→C
-H→D
-Text(-1,D,C,sub(">v<^-!-!",A+4B,1
+While J>25 and fPart(K/128
+C+(A-3)(A≠1→L
+D+(A-2)(A≠4→M
+If pxl-Test(5L-4C+3,D
+C→L
+If pxl-Test(C,4M-3D+2
+D→M
+Text(­1,E,F," 
+RecallPic 1
+E+G→E
+2+remainder(73+F+H,75→F
+Text(­1,C,D," 
+Text(1,82,K
+StorePic 1
+Text(­1,E,F,"O
+K+pxl-Test(5L-4C+3,4M-3D+2→K
+not(B→B
+L→C
+2+remainder(72+M,74→D
+Text(­1,C,D,sub("-!-!>v<^",A+4B,1
 0
-If not(fPart(C/8+.1D-.65
+If not(fPart(.1C+D/8-.65
 getKey-23
 Ans-7(Ans>10
 If Ans=75
 Pause 
 If 1≤Ans and Ans≤4
 Ans→A
-If J<25not(B
+(E+G-C)²+(F+H-D)²+ᴇ4pxl-Test(E+5G+3abs(G),F+4H+2abs(H→J
+G→L
+H→M
+For(X,­1,1,2-21fPart(.1E+F/8-.65
+(E-C)²+(F+X-D)²
+If Ans<Jnot(M or pxl-Test(E,F+4X+2
 Then
-E-(C<E)+(C>E→E
-F-(D<F)+(D>F→F
+Ans→J
+DelVar GX→H
 End
-Text(-1,F,E,sub(" X",2-B,1
-If B
-RecallPic 1
-Text(1,82,K
-1-B→B
-1+J(J<30→J
+(E+X-C)²+(F-D)²
+If Ans<Jnot(L or pxl-Test(E+5X+3,F
+Then
+Ans→J
+DelVar HX→G
 End
-I+not(not(fPart(K/126→I
+End
+End
 End
