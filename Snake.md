@@ -303,7 +303,7 @@ D−>I
 0−>K  
 DelVar Y{0−>L₁  
 Repeat Bpxl-Test(~~6~~ **8** C+1,~~4~~ **6** D  
-Text(~~6~~ **8** 8C,~~4~~ **6** D,"O  
+Text(~~6~~ **-1,8** C,~~4~~ **6** D,"O  
 getKey-21  
 If Ans=13  
 6  
@@ -316,13 +316,13 @@ While pxl-Test(~~6~~ **8** H+~~3~~ **2**,~~4~~ **6** I
 randInt(0,~~9~~ **7**−>H  
 randInt(0,~~22~~ **15**−>I  
 End  
-Text(~~6~~ **-1,** 8H,~~4~~ **6** I,”+*  
+Text(~~6~~ **-1,8** H,~~4~~ **6** I,”+*  
 A+_GROWTH_ −>A  
 End  
 While A<dim(L₁  
 L₁(A−>E  
 If E  
-Text(~~6~~ **-1,** 8F,~~4~~ **6** G,”SPACE ~~SPACE SPACE~~  
+Text(~~6~~ **-1,8** F,~~4~~ **6** G,”SPACE ~~SPACE SPACE~~  
 remainder(F+~~10~~**8**+(E-5)(E≥4),~~10~~**8**−>F  
 remainder(G+~~23~~ **16**-(E=3)+(E=5),~~23~~ **16**−>G  
 A−>dim(L₁  
