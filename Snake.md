@@ -37,7 +37,7 @@ DelVar YAns−>B
 While 3<dim(L₁  
 L₁(3−>E  
 If E**  
-Text(8F,6G,SPACE SPACE SPACE  
+Text(8F,6G,”SPACE SPACE SPACE  
 **remainder(F+8+(E-5)(E≥4),8−>F**  
 remainder(G+1 **6-(E=3)+(E=5)**,16−>G  
 **3−>dim(L₁  
@@ -82,7 +82,7 @@ End**
 While ~~3~~ **A**<dim(L₁  
 L₁(~~3~~ **A**−>E  
 If E  
-Text(8F,6G,SPACE SPACE SPACE  
+Text(8F,6G,”SPACE SPACE SPACE  
 remainder(F+8+(E-5)(E≥4),8−>F  
 remainder(G+16-(E=3)+(E=5),16−>G  
 ~~3~~ **A**−>dim(L₁  
@@ -130,7 +130,7 @@ End
 While A<dim(L₁  
 L₁(A−>E  
 If E  
-Text(8F,6G,SPACE SPACE SPACE  
+Text(8F,6G,”SPACE SPACE SPACE  
 remainder(F+8+(E-5)(E≥4),8−>F  
 remainder(G+16-(E=3)+(E=5),16−>G  
 A−>dim(L₁  
@@ -178,7 +178,7 @@ End
 While A<dim(L₁  
 L₁(A−>E  
 If E  
-Text(8F,6G,SPACE SPACE SPACE  
+Text(8F,6G,”SPACE SPACE SPACE  
 remainder(F+8+(E-5)(E≥4),8−>F  
 remainder(G+16-(E=3)+(E=5),16−>G  
 A−>dim(L₁  
@@ -226,7 +226,7 @@ End
 While A<dim(L₁  
 L₁(A−>E  
 If E  
-Text(8F,6G,SPACE SPACE SPACE  
+Text(8F,6G,”SPACE SPACE SPACE  
 remainder(F+8+(E-5)(E≥4),8−>F  
 remainder(G+16-(E=3)+(E=5),16−>G  
 A−>dim(L₁  
