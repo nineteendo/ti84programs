@@ -1,1 +1,109 @@
-4{4,5→dim([A]Fill(0,[A]4→dim(⌊TSabs(⌊TS→TSRepeat C=1Input "randLine(",MClrDrawVertical 0For(B,3,14For(C,3,M+2randInt(0,1→[A](B,CIf not(AnsPt-On(4B-9,4C-11,2EndFor(C,C,201→[A](B,CEndEndVertical 50For(A,0,61A+(A>5)+2sum(A={6,46→A6sum(A≥{9,49Pt-On(64-Ans,APt-On(82+Ans,AEndFor(A,53,93abs(73-AFor(B,(Ans>8)+5(Ans>14),14fPart(.5APt-On(A,8B+6not(B=6 or B and B<4EndEndText(­1,4,56,"TETRISText(17,60,"LEVEL00Text(39,60,"LINE000Text(47,60,"0000000Text(57,66,"MENUDelVar BDelVar JrandInt(­1,5→LDelVar NDelVar ORepeat B=19 or C≠3Repeat B=19 or C=14If C≠3ThenDelVar Ymin(15,max(B-2,M→MIf BThen0→[A](A,B0→[A](A-D,B-E0→[A](A+F,B-G0→[A](A-H,B-IEndFor(E,3,M+4For(B,3,14not(not(Y1If E+Y<20[A](B,E+YAns→[A](B,EPt-On(4B-9,4E-11,2Pt-Off(4B-9,4E-11,2AnsEndMatrlist([A],E,L₁If not(sum(L₁ThenE-1→EM-1→MJ+1→JY+1→YN+Yᴇ3→NText(47,84-4int(log(N)),N1+int(.2J→OText(39,84-4int(log(J)),JText(17,84-4int(log(O)),OEndEnd1→DL=3→EL≠4→FL≥4→GL(L≤2)+not(F→HL≠2→IrandInt(­1,5→LText(­1,28,65,"   L≤1→A2(L=2→YY+A+(L-4)(L>2Text(29-Y,70+2Ans-4AL,sub("▫▫",1,2-AText(25+Y,70-2Ans,sub("▫▫▫",1,2+A9→ADelVar K18→BEndDelVar YWhile C≠14 and [A](A,B)[A](A-D,B-E)[A](A+F,B-G)[A](A-H,B-IIf CY or Ynot(KThen4A-9Pt-Off(Ans,Y,2Pt-Off(Ans-4D,Y-4E,2Pt-Off(Ans+4F,Y-4G,2Pt-Off(Ans-4H,Y-4I,2If 25=C[A](A-E,B+D)[A](A-G,B-F)[A](A-I,B+HThenE→Y­D→EY→DG→YF→G­Y→FI→Y­H→IY→HEndA-(C=24)+(C=26If [A](Ans,B)[A](Ans-D,B-E)[A](Ans+F,B-G)[A](Ans-H,B-IAns→AEndgetKey→C4B-11→Y4A-9Pt-On(Ans,Y,2Pt-On(Ans-4D,Y-4E,2Pt-On(Ans+4F,Y-4G,2Pt-On(Ans-4H,Y-4I,2K+1→KIf C=34 or K+O≥20DelVar KB-1→BEndB+not(K→BEndStorePic 1If B=19ThenIf sum(N>⌊TSN→⌊TS(4For(A,2,48Vertical AEndEndSortD(⌊TSFor(Y,30,46For(C,­1,0Y-CRepeat Ans≥31Line(1,Ans,49,Ans,C62-AnsEndEndEnd3→CRepeat CFor(Y,2,5Text(8Y,13,sub("Return  NewStop  upper 4",3Y-5,3EndRepeat Ans=14 or Ans=105If AnsDelVar YPt-Off(9,18+8C,24fPart(.25sum({3,C,Ans≠34,Ans=25→CPt-On(9,18+8C,2Y+1→YIf Y>ᴇ3DelVar YPause getKeyEndIf Ans=143→CFor(X,2C,1For(Y,1,4XText(16+6Y,8,⌊TS(YEndIf XPause For(Y,17,40abs(Y-56XText(56-Ans,8,"▫ upper 4Line(8,Ans,42,Ans,0EndEndEndClrDrawRecallPic 1EndEndDelVar [A]DelVar Pic1
+DelVar [A]4{4,5→dim([A]
+5→dim(ʟTS
+real(ʟTS→TS
+Repeat C=1
+SortD(ʟTS
+Input "LEVEL",O:Input "randLine(",M:ClrDraw
+Vertical 0
+For(B,3,14
+For(C,3,M+2
+int(2rand→[A](B,C
+Pt-On(4Bnot(Ans)-9,4C-11,2:End
+For(C,C,20
+1→[A](B,C:End
+End:Vertical 50:For(A,9,61,2
+If A=47
+End:6(A≥49
+Pt-On(58-Ans,A
+Pt-On(88+Ans,A
+End
+For(A,53,93,2
+For(B,­1,5(59≤A and A≤87
+Pt-On(A,48-8B+6(B and B≤2
+End:End
+Text(­1,4,56,"TETRIS
+Text(17,60,"LEVEL0
+Text(39,60,"LINE00
+Text(47,60,"000000
+Text(56,59,"Menu(F4)
+DelVar BDelVar JDelVar NDelVar X2→P
+randInt(­1,5→L
+Repeat B>18 or C≠3
+Repeat B>18 or C=14:If C≠3:Then:DelVar YN+X→N
+For(C,1,4not(not(B
+{H,­F,D,0,E,G,I:0→[A](A+Ans(C),B-Ans(8-C:End
+For(E,3,2+max(B,M
+For(B,3,14not(not(Y:1:If E+Y≤20:[A](B,E+Y
+Ans→[A](B,E
+Pt-On(4B-9,4E-11,2
+Pt-Off(4B-9,4E-11,2Ans:End
+Matr►list([A],E,L₁
+If not(sum(L₁
+Then:E-1→E
+Y+1→Y:N+Yᴇ3→N
+End:End
+max(N,min(ʟTS→ʟTS(5:J+Y→J
+max(O,int(.1J→O:E-3-Y→M
+For(C,1,3
+{N,J,O:Ans(C
+Text(41+13C-7C²,84-4int(log(max(1,Ans))),Ans
+End:1→D:L=3→E
+L≠4→F:L≥4→G
+1-F+L(L≤2→H
+L≠2→I
+randInt(­1,5→L
+Text(­1,28,65,"   
+L=4
+4{L≠2,L≥4,L=3,0,1,Ans-1,Ans+L(L≤2:For(A,1,4
+Pt-On(71+Ans(8-A),33-Ans(A),2
+End:DelVar K8→A:18→B:End
+DelVar YWhile C≠14 and [A](A,B)[A](A+D,B-E)[A](A-F,B-G)[A](A+H,B-I:C=34
+AnsX+Ans→X
+If Ynot(Knot(C
+Then:4A-9
+Pt-Off(Ans,Y,2
+Pt-Off(Ans+4D,Y-4E,2
+Pt-Off(Ans-4F,Y-4G,2
+Pt-Off(Ans+4H,Y-4I,2
+A-(C=24)+(C=26
+If [A](Ans,B)[A](Ans+D,B-E)[A](Ans-F,B-G)[A](Ans+H,B-I:Ans→A
+(C=31)-(C=21→Y
+If Y[A](A+YE,B+YD)[A](A+YG,B-YF)[A](A+YI,B+YH
+Then
+E→C:­YD→E:YC→D
+G→C:YF→G:­YC→F
+I→C:­YH→I:YC→H
+End:While C=25
+L→C:P→L:C→P:End:End:getKey→C
+4B-11→Y:4A-9
+Pt-On(Ans,Y,2
+Pt-On(Ans+4D,Y-4E,2
+Pt-On(Ans-4F,Y-4G,2
+Pt-On(Ans+4H,Y-4I,2:K+.5→K
+If C=34 or K+O≥9:DelVar KB-1→B
+End:B+not(K→B
+End:StorePic 1
+For(Y,2,48(B>18:Vertical Y:End
+For(Y,1,49
+Line(Y,15,Y,47
+Line(Y,16,Y,46,0:End:3→C
+Repeat C
+For(Y,2,5
+Text(8Y,13,sub("Return  NewStop  upper 5",3Y-5,3:End
+Repeat Ans=14 or Ans=26:If Ans
+DelVar YPt-Off(9,19+8C,2
+remainder(C+3(Ans=34)+(Ans=25),4→C
+Pt-On(9,19+8C,2:Y+1→Y:If Y>ᴇ3
+DelVar YPause 
+getKey:End
+If Ans=14:3→C
+For(X,2C,1
+For(Y,1,5X
+Text(10+6Y,5,Y,":",ʟTS(Y:End
+If X:Pause 
+For(Y,5,45
+Line(Y,17,Y,45,0:End:End
+End:ClrDraw
+RecallPic 1
+End:End
+DelVar [A]DelVar Pic1
