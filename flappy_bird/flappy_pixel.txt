@@ -3,7 +3,7 @@ Repeat Ans
     getKey
 End
 Ans=95→F
-­1→E
+−1→E
 Repeat F=pxl-Test(A,B
     E+1→E
     ClrDraw
@@ -16,7 +16,7 @@ Repeat F=pxl-Test(A,B
         Else
             Line(X,Ans-4,X,Ans-1
         End
-        Ans+randInt(­(Ans>5),(Ans<62
+        Ans+randInt(−(Ans>5),(Ans<62
     End
     DelVar B31→A
     Repeat B≥94 or F=pxl-Test(A,B

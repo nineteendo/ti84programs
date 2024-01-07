@@ -32,7 +32,7 @@ While 1
         Text(31,0,D,"/200   
     Y+1→Y
     getKey→θ
-    If Y≥2
+    If Y≥ᴇ2
         DelVar YPause 
     C+2^(E+H→C
     T+.01→T
@@ -57,7 +57,7 @@ Then
         Text(25,0,"[E]FFICIENCY:",6^(E+9
     If U<3
         Text(31,0,"[U]NBREAKING:",14^(U+9
-    Text(38,0,"[P]RESTIGE:",^(R+2
+    Text(38,0,"[P]RESTIGE:",⏨^(R+2
     Text(45,0,"[M]ULTIPLIER:",7^S
     If H<2
         Text(51,0,"[H]ASTE:",3^(M+H
@@ -65,7 +65,7 @@ Then
         Text(57,0,"[T]NT EXPLOSION:",int(T
     Repeat θ
         Y+2→Y
-        If Y>3
+        If Y>ᴇ3
             DelVar YPause 
         getKey→θ
         If θ=31
@@ -97,7 +97,7 @@ Then
         U+1→U
         Aθ→θ
     End
-    While θ=73 and B≥^(R+2
+    While θ=73 and B≥⏨^(R+2
         Goto 1
     End
     While θ=65 and B≥7^S

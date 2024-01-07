@@ -10,7 +10,7 @@ randInt(25,155)°(1-2(A≥47→C
 Ysin(C→D
 Ycos(C→E
 A→F
-Text(­1,2,2,H
+Text(−1,2,2,H
 H+1→H
 B
 Repeat F≥92
@@ -27,13 +27,13 @@ Repeat F≥92
     Ans→G
     If F≤2
     Then
-        ­D→D
+        −D→D
         A→F
     End
     B+E
     If Ans≤2 or Ans≥60
     Then
-        ­E→E
+        −E→E
         B
     End
 End

@@ -13,7 +13,7 @@ Repeat A
     For(Y,1,dim(L₁
         DelVar BRepeat Ans
         B+1→B
-        If B>2
+        If B>ᴇ2
             DelVar BPause 
         getKey
     End

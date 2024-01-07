@@ -17,7 +17,7 @@ For(G,0,17
     Then
         For(θ,2,94
             Line(θ,0,θ,Ans
-            Ans-randInt(­2(Ans<57),Ans>9
+            Ans-randInt(−2(Ans<57),Ans>9
         End
     End
     If G=3
@@ -53,7 +53,7 @@ For(G,0,17
             Line(θ,0,θ,Ans
             Line(θ,Ans+3,θ,62
             Pt-On(θ-1,Ans+3
-            Ans+3randInt(­1,1
+            Ans+3randInt(−1,1
         End
     End
     If G=9
@@ -91,20 +91,20 @@ For(G,0,17
         Pt-On(C-D,D
         C+6+2randInt(not(C),2(G>4)+(G=4not(C→C
         If G≠14
-            D-randInt(­3,1<D→D
+            D-randInt(−3,1<D→D
     End
     If G=16
     Then
         For(θ,1,94
             Pt-On(θ,Ans
-            Ans+randInt(­2(Ans>1),2(Ans<57
+            Ans+randInt(−2(Ans>1),2(Ans<57
         End
     End
     Repeat B=X or H>91G
         31+30(G≠8→A
         1→B
         1-2(G≠8→E
-        DelVar F­^(2(G=8→I
+        DelVar F−⏨^(2(G=8→I
         Text(0,2,G,"-",H
         While B≠X and A<62 and A
             A→C
@@ -115,15 +115,15 @@ For(G,0,17
                     If pxl-Test(A+1,B) or pxl-Test(A,B+E
                         DelVar I
                     If pxl-Test(A,B+E)(pxl-Test(A-1,B) or not(pxl-Test(A+1,B
-                        ­E→E
+                        −E→E
                     If I<2
                         DelVar FI+1→I
                 End
             End
             F+1→F
-            If F>2
+            If F>ᴇ2
                 Pause 
-            If F>2
+            If F>ᴇ2
                 4→F
             1-2(F<4
             A+Ansnot(pxl-Test(A+Ans,B)(pxl-Test(A+Ans,B+E) or pxl-Test(A,B+E→A

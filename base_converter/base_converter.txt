@@ -4,8 +4,8 @@ Input Str1
 If Str1="Ans
     Ans→Str1
 DelVar C"+→Str2
-If "­"=sub(Str1,1,1
-    "­→Str2
+If "−"=sub(Str1,1,1
+    "−→Str2
 For(D,1,length(Str1
     sub(Str1,D,1
     (Ans="1")+2(Ans="2")+3(Ans="3")+4(Ans="4")+5(Ans="5")+6(Ans="6")+7(Ans="7")+8(Ans="8")+9(Ans="9")+10(Ans="A")+11(Ans="B")+12(Ans="C")+13(Ans="D")+14(Ans="E")+15(Ans="F
@@ -13,7 +13,7 @@ For(D,1,length(Str1
 End
 If not(C
     Stop
-For(A,int(logBASE(C,B)),0,­1
+For(A,int(logBASE(C,B)),0,−1
     int(C/B^A→D
     C-DB^A→C
     Str2+sub("0123456789ABCDEF",D+1,1→Str2

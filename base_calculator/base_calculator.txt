@@ -10,7 +10,7 @@ For(D,1,1+length(Str1
         If Str2="+" or Str2="?
             C→A
         If Str2="-
-            ­C→A
+            −C→A
         If Str2="*
             AC→A
         If Str2="/
@@ -22,14 +22,14 @@ For(D,1,1+length(Str1
 End
 E+A→E
 If E<0
-    "­→Str2
+    "−→Str2
 abs(E→E
 If not(E
     Stop
 1+int(logBASE(E,B→A
 While E and B^A≠0 or A>0
     A-1→A
-    If A=­1
+    If A=−1
         Str2+".→Str2
     int(E/B^A→D
     E-DB^A→E

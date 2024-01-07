@@ -10,7 +10,7 @@ Lbl 0
 Menu("PUSH>R","Enter",5,"New",4,"CHALLENGE",2,"CUSTOM",3,"HACK",1,"Stop",6
 Lbl 1
 Input "-=",E
-Input "=",F
+Input "⁄=",F
 Input "DOTS=",G
 Goto 0
 Lbl 2
@@ -28,7 +28,7 @@ Line(A+1,2,A+1,B
 2→F
 Goto 5
 Lbl 3
-­1
+−1
 Input "BLOCKS=",Y
 If Y
 Then

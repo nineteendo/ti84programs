@@ -5,7 +5,7 @@ Horizontal 0
 Horizontal 62
 4→L₁(1
 For(C,2,4
-    Ans+randInt(­(Ans>0),(Ans<15→L₁(C
+    Ans+randInt(−(Ans>0),(Ans<15→L₁(C
 End
 DelVar E50→B
 DelVar D29→A
@@ -19,7 +19,7 @@ Repeat pxl-Test(Ans,E) or pxl-Test(Ans,E+1
     1+C(C<2→C
     L₁(C
     If B=44
-        Ans+randInt(­(Ans>0),(Ans<16→L₁(1+C(C<4
+        Ans+randInt(−(Ans>0),(Ans<16→L₁(1+C(C<4
     L₁(C
     Line(B,61,B,4Ans+5
     Line(B+3,60,B+3,2,0

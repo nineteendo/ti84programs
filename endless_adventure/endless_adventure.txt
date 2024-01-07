@@ -2,7 +2,7 @@ Disp "   AN ENDLESS","   ADVENTURE!","","[BUTTON]  +=HARD","","","2021  NINETEEN
 DelVar Y1→H
 Repeat Ans
     Y+1→Y
-    If Y≥2
+    If Y≥ᴇ2
         DelVar YPause 
     getKey
 End
@@ -34,7 +34,7 @@ For(G,0,10
         Then
             For(θ,0,X
                 Line(θ,Ans,θ,0
-                Ans+randInt(­1,2(Ans<60
+                Ans+randInt(−1,2(Ans<60
             End
         End
         If G=6
@@ -69,9 +69,9 @@ For(G,0,10
                 For(θ,0,4
                     Y+1→Y
                     getKey→E
-                    If E=105 or Y>2
+                    If E=105 or Y>ᴇ2
                         Pause 
-                    If E or Y>2
+                    If E or Y>ᴇ2
                         DelVar Y4→θ
                 End
                 If 25=Epxl-Test(A,B)pxl-Test(A+1,B

@@ -8,10 +8,10 @@ D→I
 1→K
 DelVar Y{0→L₁
 Repeat Bpxl-Test(8C+1,6D
-    Text(­1,8C,6D,"O
+    Text(−1,8C,6D,"O
     getKey-21
     Ans-7(Ans≥13
-    If 77=Ans or Y>2
+    If 77=Ans or Y>ᴇ2
         DelVar YPause 
     If 3≤Ans and Ans≤6 and 2≠abs(B-Ans
         DelVar YAns→B
@@ -20,13 +20,13 @@ Repeat Bpxl-Test(8C+1,6D
             randInt(0,7→H
             randInt(0,15→I
         End
-        Text(­1,8H,6I,"*
+        Text(−1,8H,6I,"*
         A+1→A
     End
     While A<dim(L₁
         L₁(A→E
         If E
-            Text(­1,8F,6G," 
+            Text(−1,8F,6G," 
         remainder(8+F+(E-5)(E≥4),8→F
         remainder(16+G-(E=3)+(E=5),16→G
         A→dim(L₁
