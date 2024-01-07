@@ -1,0 +1,24 @@
+Disp "","  SUPER  SIMON","","    [ENTER]!","","","2021  NINETEENDO
+Pause 
+DelVar AClrHome
+0→dim(L₁
+Repeat A
+    randInt(1,4→L₁(1+dim(L₁
+    Output(1,1,dim(L₁
+    For(B,1,dim(L₁
+        Output(3,1,sub("<^>␣",L₁(B),1
+        randBin(15,0
+        Output(3,1," 
+    End
+    For(Y,1,dim(L₁
+        DelVar BRepeat Ans
+        B+1→B
+        If B>2
+            DelVar BPause 
+        getKey
+    End
+    L₁(Y)≠Ans-23-7(Ans=34→A
+    If A
+        dim(L₁→Y
+End
+End

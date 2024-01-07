@@ -1,10 +1,17 @@
-# TI-84-Plus-programs
+# TI-84 Plus programs
 Programs for the TI-84 Plus
 
 This are some programs I made for the TI-84 Plus:
-* ZOOM: a tool to switch between running programs & drawing functions
-* PACMAN without score / pathfinding
-* BASE converter
-* BASECALC: a simple calculator in different bases
-* TETRIS (original by nitacku: https://www.ticalc.org/archives/files/fileinfo/371/37183.html)
-* SNAKE with 2 modes: Normal & Boxed
+
+* **base_calculator**: a simple calculator in different bases
+* **base_converter**
+* **endless_adventure**: a simple platformer
+* **flappy_bird**: scrolling and not scrolling
+* **jump_twice**: a runner with double jump
+* **pacman**: without score / pathfinding
+* **pong**: normal and wall mode
+* **prison_mine**: a Minecraft based idle game
+* **pusher**: a game revolving around pushing pixels
+* **snake**: with 2 modes: Normal & Boxed
+* **tetris**: original by nitacku: https://www.ticalc.org/archives/files/fileinfo/371/37183.html
+* **zoom**: a tool to switch between running programs & drawing functions

@@ -1,0 +1,41 @@
+Input "BASE ",B
+DelVar ADelVar CDelVar E"+→Str2
+Input Str1
+For(D,1,1+length(Str1
+    sub(Str1+"+",D,1→Str3
+    If Ans="+" or Ans="-" or Ans="*" or Ans="/
+    Then
+        If Str2="+" or Str2="-
+            E+A→E
+        If Str2="+" or Str2="?
+            C→A
+        If Str2="-
+            ­C→A
+        If Str2="*
+            AC→A
+        If Str2="/
+            A/C→A
+        DelVar CStr3→Str2
+    End
+    (Ans="1")+2(Ans="2")+3(Ans="3")+4(Ans="4")+5(Ans="5")+6(Ans="6")+7(Ans="7")+8(Ans="8")+9(Ans="9")+10(Ans="A")+11(Ans="B")+12(Ans="C")+13(Ans="D")+14(Ans="E")+15(Ans="F
+    BC+Ans(Ans<B→C
+End
+E+A→E
+If E<0
+    "­→Str2
+abs(E→E
+If not(E
+    Stop
+1+int(logBASE(E,B→A
+While E and B^A≠0 or A>0
+    A-1→A
+    If A=­1
+        Str2+".→Str2
+    int(E/B^A→D
+    E-DB^A→E
+    Str2+sub("0123456789ABCDEF",D+1,1→Str2
+End
+For(A,1,length(Str2)-16,16
+    Disp sub(Str2,A,16
+End
+Disp sub(Str2,A,length(Str2)-A+1

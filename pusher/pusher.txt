@@ -1,0 +1,88 @@
+94→E
+Ans→F
+Lbl 0
+0→C
+5→D
+0→X
+0→θ
+100→Y
+0
+Menu("PUSH>R","Enter",5,"New",4,"CHALLENGE",2,"CUSTOM",3,"HACK",1,"Stop",6
+Lbl 1
+Input "-=",E
+Input "=",F
+Input "DOTS=",G
+Goto 0
+Lbl 2
+Input C
+ClrDraw
+For(A,0,2C,2
+    For(B,0,2C,2
+        Pt-On(A+2,B+2,3
+    End
+End
+Line(1,2,1,B
+Line(2,1,A,1
+Line(A+1,2,A+1,B
+2→E
+2→F
+Goto 5
+Lbl 3
+­1
+Input "BLOCKS=",Y
+If Y
+Then
+    Input "X-VOID=",X
+    Input "Y-VOID=",θ
+    Input "SHAPEmin(",C
+    Input "SHAPEmax(",D
+    Input "DOTS=",A
+    A
+End
+Lbl 4
+Ans→G
+ClrDraw
+For(A,1,Y
+    Pt-On(randInt(X,94-X),randInt(θ,62-θ),randInt(C,D
+End
+31→A
+47→B
+Lbl 5
+Pxl-On(A,B
+While 1
+    Repeat 0≤E and CD or 0≤F and (C xor D
+        getKey→θ
+        If θ=43
+            Goto 0
+        pxl-Test(A,B
+        If θ=95 and G+not(Ans
+        Then
+            G+1-2Ans→G
+            Pxl-Change(A,B
+        End
+        sum(A<62 and θ={34,92,94})-sum(A and θ={25,72,74→C
+        sum(B<94 and θ={26,74,94})-sum(B and θ={24,72,92→D
+    End
+    If pxl-Test(A+C,B+D
+    Then
+        For(θ,1,E(C xor D)+Fabs(CD
+            31=abs(A+θC-31) or 47=abs(B+θD-47
+            If Ans or not(pxl-Test(A+θC,B+θD
+            Then
+                If Ans
+                    G+pxl-Test(A+θC,B+θD→G
+                Pxl-Change(A,B
+                Pxl-On(A+θC,B+θD
+                A+C→A
+                B+D→B
+                max(E,F→θ
+            End
+        End
+    Else
+        Pxl-Change(A,B
+        A+C→A
+        B+D→B
+        Pxl-Change(A,B
+    End
+End
+Lbl 6

@@ -1,0 +1,173 @@
+DelVar [A]4{4,5→dim([A]
+4→dim(⌊TS
+Input "LVL 0-9:",S
+Input "HIGH 0-14:",R
+Repeat not(I
+    SortD(⌊TS
+    R→L
+    min(S,9→O
+    ClrDraw
+    Vertical 0
+    For(B,3,14
+        For(I,3,L+2
+            int(2rand→[A](B,I
+            Pt-On(not(Ans)4B-9,4I-11,2
+        End
+        For(I,I,20
+            1→[A](B,I
+        End
+    End
+    Vertical 50
+    For(B,1,3
+        Text(6B-6,52,B,":",⌊TS(B
+    End
+    For(B,2,42,2
+        Pt-On(56,B
+        Pt-On(90,B
+    End
+    For(A,57,89,2
+        For(B,1,43,14
+            Pt-On(A,B
+        End
+    End
+    58
+    Text(20,Ans,"LEVEL00
+    Text(26,Ans,"HEIGHT0
+    Text(48,Ans,"LINES00
+    Text(54,Ans,"0000000
+    DelVar BDelVar PrandInt(­1,5→M
+    2→N
+    Q→K
+    Repeat 18<B or I≠2
+        Repeat 18<B or I=14
+            If I≠2
+            Then
+                DelVar Y{G,­E,C,0,D,F,H→L₁
+                If B
+                Then
+                    4B-11
+                    Pt-On(4A-9,Ans,2
+                    Pt-Off(4A-9,Ans
+                    For(I,1,4
+                        0→[A](A+L₁(I),B-L₁(8-I
+                    End
+                End
+                For(D,3,2+max(B,L
+                    For(B,3,14not(not(Y
+                        1
+                        If D+Y≤20
+                            [A](B,D+Y
+                        Ans→[A](B,D
+                        Pt-On(4B-9,4D-11,2
+                        Pt-Off(4B-9,4D-11,2Ans
+                    End
+                    Matrlist([A],D,L₁
+                    not(sum(L₁→A
+                    Y+A→Y
+                    D-A→D
+                End
+                Q-K+35Y(11Y-54Y²+91Y-24)(O+1→Q
+                Q→⌊TS(4
+                P+Y→P
+                int(max(O,.1P→O
+                D-3-Y→L
+                {O,R,P,Q
+                For(I,1,4
+                    Text(6I+16(I>2)+14,86-4int(log(max(1,Ans(I)))),Ans(I
+                End
+                1→C
+                M=3→D
+                M≠4→E
+                4≤M→F
+                1-E+M(M≤2→G
+                M≠2→H
+                randInt(­1,5→M
+                Text(­1,37,65,"   
+                M=4
+                4{M≠2,4≤M,M=3,0,1,Ans-1,Ans+M(M≤2
+                For(A,1,4
+                    Pt-On(71+Ans(8-A),24-Ans(A),2
+                End
+                DelVar J8→A
+                18→B
+            End
+            ­9→X
+            While I≠14 and [A](A,B)[A](A+C,B-D)[A](A-E,B-F)[A](A+G,B-H
+                If I or not(J
+                Then
+                    Pt-Off(X,Y,3
+                    Pt-Off(X+4C,Y-4D,2
+                    Pt-Off(X-4E,Y-4F,2
+                    Pt-Off(X+4G,Y-4H,2
+                End
+                A-(I=24)+(I=26
+                If Ans≠A
+                Then
+                    If [A](Ans,B)[A](Ans+C,B-D)[A](Ans-E,B-F)[A](Ans+G,B-H
+                        Ans→A
+                End
+                (I=31)-(I=21→Y
+                If Y
+                Then
+                    If [A](A+YD,B+YC)[A](A+YF,B-YE)[A](A+YH,B+YG
+                    Then
+                        D→I
+                        ­YC→D
+                        YI→C
+                        F→I
+                        YE→F
+                        ­YI→E
+                        H→I
+                        ­YG→H
+                        YI→G
+                    End
+                End
+                4A-9→X
+                4B-11→Y
+                Pt-On(X,Y,3
+                Pt-On(X+4C,Y-4D,2
+                Pt-On(X-4E,Y-4F,2
+                Pt-On(X+4G,Y-4H,2
+                J+.5→J
+                I=34
+                KAns-Ans→K
+                getKey→I
+                If I=34 or 9<J+O
+                    DelVar JB-1→B
+                While I=12
+                    Pt-Change(71,24
+                    M→I
+                    N→M
+                    I→N
+                End
+            End
+            B+not(J→B
+        End
+        StorePic 1
+        For(Y,2,48(18<B
+            Vertical Y
+        End
+        For(Y,1,49
+            Pt-On(Y,20
+            Line(Y,21,Y,41,0
+            Pxl-On(20,Y
+        End
+        Text(22,11,"Return
+        Text(28,11,"New
+        Text(34,11,"Stop
+        2→I
+        Repeat Ans=14
+            If Ans
+                DelVar YPt-Off(7,25+6I,2
+            remainder(I+2(Ans=12),3→I
+            Pt-On(7,25+6I,2
+            Y+1→Y
+            If 3<Y
+                DelVar YPause 
+            getKey
+        End
+        ClrDraw
+        RecallPic 1
+    End
+End
+DelVar [A]DelVar Pic1Disp 
