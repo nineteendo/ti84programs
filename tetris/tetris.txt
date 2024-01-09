@@ -37,7 +37,7 @@ Repeat not(I
     Text(54,Ans,"0000000
     DelVar BDelVar PrandInt(−1,5→M
     2→N
-    Q→K
+    −Q→K
     Repeat B>18 or I≠2
         Repeat B>18 or I=14
             If I≠2
@@ -66,7 +66,7 @@ Repeat not(I
                     Y+A→Y
                     D-A→D
                 End
-                Q-K+3⁻¹5Y(11Y³-54Y²+91Y-24)(O+1→Q
+                Q+K+3⁻¹5Y(11Y³-54Y²+91Y-24)(O+1→Q
                 Q→⌊TS(4
                 P+Y→P
                 int(max(O,.1P→O
@@ -132,8 +132,7 @@ Repeat not(I
                 Pt-On(X-4E,Y-4F,2
                 Pt-On(X+4G,Y-4H,2
                 J+.5→J
-                I=34
-                KAns-Ans→K
+                1+K(I=34→K
                 getKey→I
                 If I=34 or J+O>9
                     DelVar JB-1→B
