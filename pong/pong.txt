@@ -1,18 +1,21 @@
-ClrDraw
-DelVar FDelVar GDelVar IDelVar JHorizontal 0
+"
+Disp Ans,"      PONG",Ans,"    [D-PAD]!",Ans,"
+Pause "2022  NINETEENDO
+DelVar FDelVar GDelVar IDelVar JClrDraw
+Horizontal 0
 Horizontal 62
-Repeat G>10 or H>10
+Repeat G>9 or J>9
     1→H
     DelVar B1-2randInt(0,1→A
     Text(−1,2,39,G
     Text(−1,2,51,J
-    Repeat 3.5<abs(B-I) and A<0.5 or A<abs(B-F) and 0<A
+    Repeat A<0 and 7<2abs(B-I) or 0<A and 7<2abs(B-F
         H+.2→H
         A/abs(A)randInt(30,150)°→C
         Hcos(C→D
         Hsin(C→C
-        While 43.5>abs(A-C
-            If 29.5≤abs(B+D
+        While 87>2abs(A-C
+            If 59≤2abs(B+D
                 −D→D
             A-C→A
             B+D→B
@@ -32,4 +35,3 @@ Repeat G>10 or H>10
     G+(A>0→G
     J+(A<0→J
 End
-"

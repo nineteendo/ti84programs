@@ -6,7 +6,7 @@ For(J,1,17
     End
 End
 StorePic 1
-Text(−1,34,23,"PA<MAN
+Text(−1,34,21,"PA<FIND
 Pause 
 Repeat I>4
     ClrDraw
@@ -23,10 +23,27 @@ Repeat I>4
     DelVar B1→A
     34→C
     C→D
-    randInt(4,54→E
-    D+int(32-randabs(C-E))(1-2int(2rand→F
+    4+10randInt(0,5→E
+    10+8abs(7randInt(0,1)-randInt(0,.1abs(C-E→F
+    DelVar GDelVar Hᴇ4→J
     StorePic 1
-    While abs(C-E)+abs(D-F)>5 and fPart(K/128
+    While J>25 and fPart(K/128
+        G→L
+        H→M
+        For(X,−1,1,2-21fPart(.1E+F/8-.65
+            (E-C)²+(F+X-D)²
+            If Ans<Jnot(M or pxl-Test(E,F+4X+2
+            Then
+                Ans→J
+                DelVar GX→H
+            End
+            (E+X-C)²+(F-D)²
+            If Ans<Jnot(L or pxl-Test(E+5X+3,F
+            Then
+                Ans→J
+                DelVar HX→G
+            End
+        End
         C+(A-3)(A≠1→L
         D+(A-2)(A≠4→M
         not(B→B
@@ -36,11 +53,8 @@ Repeat I>4
             D→M
         Text(−1,E,F," 
         RecallPic 1
-        If B
-        Then
-            E-(C<E)+(E<C→E
-            F-(D<F)+(F<D→F
-        End
+        E+G→E
+        2+remainder(73+F+H,75→F
         Text(−1,C,D," 
         K+pxl-Test(5L-4C+3,4M-3D+2→K
         Text(1,82,K
@@ -57,6 +71,7 @@ Repeat I>4
             Pause 
         If 1≤Ans and Ans≤4
             Ans→A
+        (E+G-C)²+(F+H-D)²+ᴇ4pxl-Test(E+5G+3abs(G),F+4H+2abs(H→J
     End
     I+not(not(fPart(K/128→I
 End

@@ -1,24 +1,37 @@
-Input "BASE ",A
-Input "BASE ",B
-Input Str1
-If Str1="Ans
-    Ans→Str1
-DelVar C"+→Str2
-If "−"=sub(Str1,1,1
-    "−→Str2
-For(D,1,length(Str1
-    sub(Str1,D,1
-    (Ans="1")+2(Ans="2")+3(Ans="3")+4(Ans="4")+5(Ans="5")+6(Ans="6")+7(Ans="7")+8(Ans="8")+9(Ans="9")+10(Ans="A")+11(Ans="B")+12(Ans="C")+13(Ans="D")+14(Ans="E")+15(Ans="F
-    AC+Ans(Ans<A→C
+"123456789ABCDEF→Str3
+While 1
+    Input "BASE ",A
+    Input "BASE ",B
+    Repeat not(C
+        Input Str1
+        DelVar CDelVar D" →Str2
+        If "−"=sub(Str1,1,1
+            "−→Str2
+        For(X,1,length(Str1
+            D+not(not(D→D
+            If "."=sub(Str1,X,1
+            Then
+                1→D
+                X+1→X
+            End
+            inString(Str3,sub(Str1,X,1
+            CA^not(D)+AnsA^−D(Ans<A→C
+        End
+        C+Cᴇ−12→D
+        int(logBASE(D+not(D),B→Y
+        For(X,max(0,Y),Y-logBASE(ᴇ11,B),−1
+            If X=−1
+                Str2+".→Str2
+            Str2+sub("0"+Str3,1+remainder(int(D/B^X),B),1→Str2
+            If 0≥X and not(fPart(DBB/B^X)fPart(C/B^X
+                −99→X
+        End
+        For(X,X,0,−1
+            Str2+"O→Str2
+        End
+        length(Str2
+        For(X,1,Ans,16
+            Disp sub(Str2,X,min(16,1+Ans-X
+        End
+    End
 End
-If not(C
-    Stop
-For(A,int(logBASE(C,B)),0,−1
-    int(C/B^A→D
-    C-DB^A→C
-    Str2+sub("0123456789ABCDEF",D+1,1→Str2
-End
-For(A,1,length(Str2)-16,16
-    Disp sub(Str2,A,16
-End
-Disp sub(Str2,A,length(Str2)-A+1

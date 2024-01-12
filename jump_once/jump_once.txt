@@ -1,0 +1,97 @@
+ᴇ10→H
+For(G,0,10
+    ClrDraw
+    94→X
+    5
+    If not(G
+    Then
+        Text(−1,24,21,"JUMP ONCE
+        Text(31,19,"2023  NINETEENDO
+        Horizontal 5
+    End
+    For(θ,99(G≠1),X
+        Pt-On(θ,Ans
+        Ans+1-2randInt(0<Ans,Ans>60
+    End
+    For(θ,X(G≠2),9
+        Line(9θ,5,9θ+3,5
+    End
+    For(θ,X(G≠3),7
+        Line(9θ,3θ+5,9θ+3,3θ+8
+    End
+    For(θ,99(G≠4),X
+        Pt-On(θ,Ans
+        Ans-randInt(Ans>1,−2(Ans<59
+    End
+    For(θ,99(G≠5),X
+        Pt-On(θ,Ans
+        Ans+randInt(−4(Ans>9),4(Ans<58
+    End
+    For(θ,X(G≠6),9
+        Pt-On(10θ+2,8
+        Pt-On(10θ,5
+    End
+    For(θ,X(G≠7),11
+        Pt-On(5θ,3θ+5
+        Pt-On(5θ+1,3θ+2
+    End
+    For(θ,5,90(G=8 or G=9),5
+        Pt-On(θ-Ans,Ans
+        Ans+(G=9)randInt(4,−4(Ans>5
+    End
+    For(θ,5,54(G>9),3
+        Pt-On(θ,58
+        Pt-On(0,θ
+    End
+    Text(0,0,"0-",G
+    56→A
+    Pt-On(0,5
+    DelVar BDelVar E3→F
+    1→K
+    Repeat B≥X
+        If pxl-Test(A+1,B
+        Then
+            A→I
+            B→J
+        End
+        F+1→F
+        A→C
+        B→D
+        getKey
+        If 21=Anspxl-Test(A+1,B
+        Then
+            1→K
+            3→Y
+            0→F
+        End
+        If KEAns
+        Then
+            DelVar KAns→E
+            0→Y
+        End
+        If Ans
+        Then
+            Ans→E
+            3→Y
+        End
+        If Y>3
+            DelVar E1→K
+        Y+1→Y
+        If E and E≤15
+            DelVar XG+E-14→G
+        If E=105 or Y>ᴇ2
+            DelVar YPause 
+        B-(E=24 and B)+(E=26→B
+        B≠D and pxl-Test(A,B) or F<3
+        A-(A and Ans)+not(Ans or pxl-Test(A+1,B→A
+        Pxl-Off(C,D
+        While E=31 or A≥62 or pxl-Test(A,B
+            I→A
+            J→B
+            DelVar EDelVar K3→F
+            H-1→H
+        End
+        Pxl-On(A,B
+    End
+End
+Disp H

@@ -1,3 +1,7 @@
+DelVar KMenu(" SNAKE ","Normal",0,"Hard",1,"Stop",2
+Lbl 0
+1→K
+Lbl 1
 ClrDraw
 DelVar ADelVar B4→C
 8→D
@@ -5,12 +9,11 @@ C→F
 D→G
 C→H
 D→I
-1→K
 DelVar Y{0→L₁
 Repeat Bpxl-Test(8C+1,6D
     Text(−1,8C,6D,"O
-    getKey-21
-    Ans-7(Ans≥13
+    getKey-28
+    Ans+7(Ans≤5
     If 77=Ans or Y>ᴇ2
         DelVar YPause 
     If 3≤Ans and Ans≤6 and 2≠abs(B-Ans
@@ -42,4 +45,5 @@ Repeat Bpxl-Test(8C+1,6D
     augment({B},L₁→L₁
     Y+1→Y
 End
-A
+Disp A
+Lbl 2

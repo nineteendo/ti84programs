@@ -1,16 +1,30 @@
 # Pacman
 
-Without pathfinding
+With and without pathfinding
 
-Showcase (**Outdated**): https://youtu.be/DJZ5qGhFMN8
+## With pathfinding
 
-Files:
+### Files
+
+- [**PACFIND.8xp**](PACFIND.8xp): TI-84 Plus program
+- [**pacfind.txt**](pacfind.txt): formatted souce code
+
+## Without pathfinding
+
+### Videos
+
+- **Showcase (Outdated)**: https://youtu.be/DJZ5qGhFMN8
+
+### Files
 
 - [**PACMAN.8xp**](PACMAN.8xp): TI-84 Plus program
 - [**pacman.txt**](pacman.txt): formatted souce code
 
+## Title Screen Controls
 
-Controls:
+- <kbd>Enter</kbd>: start game
+
+## Controls
 
 - <kbd>Up</kbd>: move up
 - <kbd>Left</kbd>: move left

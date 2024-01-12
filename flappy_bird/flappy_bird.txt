@@ -1,0 +1,32 @@
+"
+Disp Ans,"  FLAPPY  BIRD",Ans,"    [ENTER]!",Ans,"
+Pause "2023  NINETEENDO
+ClrDraw
+Horizontal 0
+Horizontal 61
+30→C
+DelVar E44→B
+DelVar D29→A
+Repeat pxl-Test(Ans,E) or pxl-Test(Ans,E+1
+    Ans→A
+    E+(E<39→E
+    Pxl-On(A,E
+    D+(B=43 and E=39→D
+    Text(2,0,D
+    B+6-7(B>38→B
+    If B=44
+        C-2randInt(C≥2,−(C≤54→C
+    Line(B,C+5,B,61
+    B+3-7(B≥42
+    Line(Ans,1,Ans,60,0
+    Line(B,0,B,C
+    Pxl-Off(A,E
+    A+1-2(getKey=21
+End
+Repeat pxl-Test(A,E
+    Pxl-On(A,E
+    randBin(2,0
+    Pxl-Off(A,E
+    A+1→A
+End
+Pxl-On(A-1,E

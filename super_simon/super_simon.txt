@@ -1,5 +1,6 @@
-Disp "","  SUPER  SIMON","","    [ENTER]!","","","2021  NINETEENDO
-Pause 
+"
+Disp Ans,"  SUPER  SIMON",Ans,"    [D-PAD]!",Ans,"
+Pause "2021  NINETEENDO
 DelVar AClrHome
 0→dim(L₁
 Repeat A
@@ -12,13 +13,13 @@ Repeat A
     End
     For(Y,1,dim(L₁
         DelVar BRepeat Ans
-        B+1→B
-        If B>ᴇ2
-            DelVar BPause 
-        getKey
+            B+1→B
+            If B>ᴇ2
+                DelVar BPause 
+            getKey
+        End
+        L₁(Y)≠Ans-23-7(Ans=34→A
+        If A
+            dim(L₁→Y
     End
-    L₁(Y)≠Ans-23-7(Ans=34→A
-    If A
-        dim(L₁→Y
-End
 End

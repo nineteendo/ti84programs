@@ -1,104 +1,67 @@
-Disp "","   JUMP TWICE",""," [ENTER] = JUMP","","","2021  NINETEENDO
 1→H
-Pause 
 For(G,0,17
     ClrDraw
     94→X
-    DelVar C1→D
     Vertical 0
+    1→D
     Pt-On(1,0
-    If G<2
+    0→C
+    If not(G
     Then
-        For(θ,0,10
-            Line(9θ,θ,9θ+8-3G,θ
-        End
+        Text(−1,24,18,"JUMP TWICE
+        Text(31,19,"2023  NINETEENDO
     End
-    If G=2
-    Then
-        For(θ,2,94
-            Line(θ,0,θ,Ans
-            Ans-randInt(−2(Ans<57),Ans>9
-        End
+    For(θ,X(2≤G),10
+        Line(9θ,θ,9θ+8-3G,θ
     End
-    If G=3
-    Then
-        For(θ,9,90,9
-            Line(θ,1,θ,9
-        End
+    For(θ,1,10(G=3
+        Line(9θ,1,9θ,9
     End
-    If G=5
-    Then
-        For(θ,1,8
-            Line(9θ,θ,9θ+2,θ+2
-        End
+    For(θ,1,8(G=5
+        Line(9θ,θ,9θ+2,θ+2
     End
-    If G=6
-    Then
-        For(θ,2,94,20
-            Line(θ,0,θ+3,3
-            Line(θ+9,3,θ+12,0
-        End
+    For(θ,5,X(G=6),20
+        Line(θ-3,0,θ,3
+        Line(θ+6,3,θ+9,0
     End
-    If G=7
-    Then
-        For(θ,1,7
-            Pt-On(14θ+3,3
-            Pt-On(14θ,0
-        End
+    For(θ,1,6(G=7
+        Pt-On(14θ+3,3
+        Pt-On(14θ,0
     End
-    If G=8
-    Then
-        28
-        For(θ,9,94,14
-            Line(θ,0,θ,Ans
-            Line(θ,Ans+3,θ,62
-            Pt-On(θ-1,Ans+3
-            Ans+3randInt(−1,1
-        End
+    For(θ,9,X(G=8),14
+        Vertical θ
+        Pt-Off(θ,Ans+32
+        Pt-On(θ-1,Ans+33
+        Ans+randInt(−5,5
     End
-    If G=9
-    Then
-        For(θ,5,94,4.5
-            Line(θ,1,θ,2
-        End
+    While G=9 and Ans<81
+        Ans+4.5
+        Line(Ans,1,Ans,2
     End
-    If G=10
-    Then
-        For(θ,0,94,16
-            Line(θ,1,θ,3
-            Line(θ+8,3,θ+8,9
-        End
+    For(θ,1,G(G=10
+        1+4fPart(.5θ
+        Line(8θ,Ans,8θ,3Ans
     End
-    If G=11
-    Then
-        For(θ,1,37,4
-            Pt-On(θ+3,θ+4
-            Pt-On(θ+13,θ
-        End
+    For(θ,5,41(G=11),4
+        Pt-On(θ-1,θ
+        Pt-On(θ+9,θ-4
     End
-    If G=12
-    Then
-        For(θ,1,13
-            Pt-On(6,4θ
-            Pt-On(6+2θ,52
-        End
+    For(θ,1,X(G=12
+        Pt-On(2θ,7fPart(2θ/7
     End
-    While G=13 and Ans<94
-        Pt-On(Ans,remainder(Ans,7
-        Ans+2
+    For(θ,1,G(G=14
+        Pt-On(6,4θ
+        Pxl-On(3,G+2θ
     End
-    While C<94sum(G={4,14,15
-        Pt-On(C-D,D
+    While C<82sum(G={4,13,15
         C+6+2randInt(not(C),2(G>4)+(G=4not(C→C
-        If G≠14
+        If G≠13
             D-randInt(−3,1<D→D
+        Pt-On(C-D,D
     End
-    If G=16
-    Then
-        For(θ,1,94
-            Pt-On(θ,Ans
-            Ans+randInt(−2(Ans>1),2(Ans<57
-        End
+    For(θ,2,X(G=2 or G=16
+        Line(θ,Ans,θ,Ans(G≠2
+        Ans-randInt(−2(Ans<57),(Ans>0)(1+(G≠2
     End
     Repeat B=X or H>91G
         31+30(G≠8→A
@@ -106,26 +69,31 @@ For(G,0,17
         1-2(G≠8→E
         DelVar F−⏨^(2(G=8→I
         Text(0,2,G,"-",H
-        While B≠X and A<62 and A
+        While B≠X and A<62
             A→C
             B→D
-            For(θ,0,5
-                If getKey and F
+            For(θ,0,2
+                getKey→Y
+                If Y and Y≤15
+                    DelVar BDelVar XDelVar EG+Y-14→G
+                If F and Y=21
                 Then
                     If pxl-Test(A+1,B) or pxl-Test(A,B+E
                         DelVar I
-                    If pxl-Test(A,B+E)(pxl-Test(A-1,B) or not(pxl-Test(A+1,B
+                    If pxl-Test(A,B+E)(pxl-Test(A-(0<A),B) or not(pxl-Test(A+1,B
                         −E→E
                     If I<2
                         DelVar FI+1→I
                 End
             End
             F+1→F
-            If F>ᴇ2
-                Pause 
-            If F>ᴇ2
+            If Y=105 or ᴇ2<F
+            Then
                 4→F
-            1-2(F<4
+                Pause 
+            End
+            F≥4
+            Ans-(A and not(Ans
             A+Ansnot(pxl-Test(A+Ans,B)(pxl-Test(A+Ans,B+E) or pxl-Test(A,B+E→A
             B+Enot(pxl-Test(A,B+E→B
             Pxl-Off(C,D

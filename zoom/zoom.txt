@@ -13,7 +13,7 @@ ZoomSto
 0→Ymin
 1→ΔY
 Disp 
-Stop
+Return
 Lbl 1
 ZoomRcl
 AxesOn 

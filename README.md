@@ -1,18 +1,17 @@
 # TI-84 Plus programs
 
-Programs for the TI-84 Plus
+Here are some programs I have created for the TI-84 Plus:
 
-This are some programs I made for the TI-84 Plus:
-
-* [**Base Calculator**](base_calculator): a simple calculator in different bases
-* [**Base Converter**](base_converter)
-* [**Endless Adventure**](endless_adventure): a simple platformer
-* [**Flappy Bird**](flappy_bird): scrolling and not scrolling
-* [**Jump Twice**](jump_twice): a runner with double jump
-* [**Pacman**](pacman): without pathfinding
-* [**Pong**](pong): normal and wall mode
-* [**Prison Mine**](prison_mine): a Minecraft based idle game
-* [**Pusher**](pusher): a game revolving around pushing pixels
-* [**Snake**](snake): with 2 modes: Normal & Boxed
-* [**Tetris**](tetris): original by nitacku: https://www.ticalc.org/archives/files/fileinfo/371/37183.html
-* [**Zoom**](zoom): a tool to switch between running programs & drawing functions
+* [**Base Calculator**](base_calculator/README.md): a simple calculator in different bases
+* [**Base Converter**](base_converter/README.md)
+* [**Flappy Bird**](flappy_bird/README.md): with and without scrolling
+* [**Jump Once**](jump_once/README.md): a simple platformer
+* [**Jump Twice**](jump_twice/README.md): a runner with double jump
+* [**Pacman**](pacman/README.md): with and without pathfinding
+* [**Pong**](pong/README.md): normal and wall mode
+* [**Prison Mine**](prison_mine/README.md): a Minecraft based idle game
+* [**Pusher**](pusher/README.md): a game revolving around pushing pixels
+* [**Snake**](snake/README.md): with 2 modes: Normal & Boxed
+* [**Super Simon**](super_simon/README.md)
+* [**Tetris**](tetris/README.md): original by nitacku: https://www.ticalc.org/archives/files/fileinfo/371/37183.html
+* [**Zoom**](zoom/README.md): a tool to switch between running programs & drawing functions

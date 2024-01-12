@@ -1,35 +1,33 @@
-Disp "","  FLAPPY PIXEL",""," [ENTER] +=DARK","","","2021  NINETEENDO
-Repeat Ans
-    getKey
-End
-Ans=95→F
-−1→E
-Repeat F=pxl-Test(A,B
-    E+1→E
+DelVar EDelVar FMenu(" FLAPPY PIXEL ","Normal",1,"DARK",0,"Stop",2
+Lbl 0
+1→F
+Lbl 1
+Repeat B<94
     ClrDraw
     33
-    For(X,0,94
+    For(X,0,93
         If F
         Then
+            Line(X,0,X,Ans-5
             Line(X,Ans,X,62
-            Line(X,Ans-5,X,0
         Else
             Line(X,Ans-4,X,Ans-1
         End
-        Ans+randInt(−(Ans>5),(Ans<62
+        Ans-randInt(5<Ans,−(Ans<62
     End
     DelVar B31→A
-    Repeat B≥94 or F=pxl-Test(A,B
-        Text(0,0,94E+B
+    Repeat 94≤B or F=pxl-Test(A,B
+        Text(0,0,E+B
         Pxl-Change(A,B
         A→C
         B→D
-        For(θ,0,30
-            If getKey=105
-                31→θ
+        For(θ,−30,−2
+            θ(getKey≠105→θ
         End
+        A-θ→A
         B+1→B
-        A+1-2(θ=32→A
         Pxl-Change(C,D
     End
+    E+B→E
 End
+Lbl 2
