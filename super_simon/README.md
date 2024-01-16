@@ -1,18 +1,20 @@
 # Super Simon
 
-## Files
+## 1. Files
 
 - [**SIMON.8xp**](SIMON.8xp): TI-84 Plus program
 - [**super_simon.txt**](super_simon.txt): formatted souce code
 
-## Title Screen Controls
+## 2. Controls
+
+### 2.1. Title screen
 
 - <kbd>Enter</kbd>: start game
 
-## Controls
+### 2.2. Game
 
-- <kbd>Up</kbd>: up
 - <kbd>Left</kbd>: left
+- <kbd>Up</kbd>: up
 - <kbd>Right</kbd>: right
 - <kbd>Down</kbd>: down
 - <kbd>Enter</kbd>: exit sleep mode

@@ -1,19 +1,19 @@
 # Jump Twice
 
-A runner with double jump
+A runner with double jump.
 
-## Videos
+## 1. Videos
 
-- **Showcase (Outdated)**: https://youtu.be/y3syBhnvCo4
-- **Tutorial (Outdated)**: https://youtu.be/zMV9QjW7MjE
+- [Showcase (outdated)](https://youtu.be/y3syBhnvCo4)
+- [Tutorial (outdated)](https://youtu.be/zMV9QjW7MjE)
 
-## Files
+## 2. Files
 
 - [**JUMP2.8xp**](JUMP2.8xp): TI-84 Plus program
 - [**jump_twice.txt**](jump_twice.txt): formatted souce code
-- [**jump_twice.md**](jump_twice.md): text tutorial (**Outdated**)
+- [**jump_twice.md**](jump_twice.md): text tutorial (**outdated**)
 
-## Controls
+## 3. Controls
 
 - <kbd>Y=</kbd>: go `2` levels back
 - <kbd>Window</kbd>: go `1` level back

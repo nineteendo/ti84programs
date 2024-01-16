@@ -13,5 +13,5 @@ Here are some programs I have created for the TI-84 Plus:
 * [**Pusher**](pusher/README.md): a game revolving around pushing pixels
 * [**Snake**](snake/README.md): with 2 modes: Normal & Boxed
 * [**Super Simon**](super_simon/README.md)
-* [**Tetris-84**](tetris-84/README.md): original by nitacku: https://ticalc.org/archives/files/fileinfo/371/37183.html
+* [**Tetris-84**](tetris-84/README.md): original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/37183.html
 * [**Zoom**](zoom/README.md): a tool to switch between running programs & drawing functions

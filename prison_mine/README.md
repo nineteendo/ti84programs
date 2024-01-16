@@ -1,18 +1,20 @@
 # Prison Mine
 
-A Minecraft based idle game
+A Minecraft based idle game.
 
-## Files
+## 1. Files
 
 - [**PRISON.8xp**](PRISON.8xp): TI-84 Plus program
 - [**prison_mine.txt**](prison_mine.txt): formatted souce code
 
-## Controls
+## 2. Controls
+
+### 2.1. Game
 
 - <kbd>S</kbd>: open shop
 - <kbd>Enter</kbd>: exit sleep mode
 
-## Shop Controls
+### 2.2. Shop
 
 - <kbd>Alpha</kbd>: all
 - <kbd>E</kbd>: efficiency
@@ -27,6 +29,6 @@ A Minecraft based idle game
 - <kbd>Enter</kbd>: exit sleep mode
 - <kbd>Any Key</kbd>: close shop
 
-## Bugs
+## 3. Bugs
 
 - You can't end the program normally

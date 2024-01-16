@@ -1,31 +1,33 @@
 # Pong
 
-Normal and wall mode
+Normal and wall mode.
 
-## Normal
+## 1. Normal
 
-### Files
+### 1.1. Files
 
 - [**PONG.8xp**](PONG.8xp): TI-84 Plus program
 - [**pong.txt**](pong.txt): formatted souce code
 
-## Wall mode
+## 2. Wall mode
 
-### Videos
+### 2.1. Videos
 
-- **Showcase (Outdated)**: https://youtu.be/eJ4l1XIi5Ic
-- **Tutorial (Outdated)**: https://youtu.be/SScmYv324EQ
+- [Showcase (outdated)](https://youtu.be/eJ4l1XIi5Ic)
+- [Tutorial (outdated)](https://youtu.be/SScmYv324EQ)
 
-### Files
+### 2.2. Files
 
 - [**WALLPONG.8xp**](WALLPONG.8xp): TI-84 Plus program
 - [**wall_pong.txt**](wall_pong.txt): formatted souce code
 
-## Title Screen Controls
+## 3. Controls
+
+### 3.1. Title screen
 
 - <kbd>Enter</kbd>: start game
 
-## Controls
+### 3.2. Game
 
 - <kbd>Up</kbd>: move up
 - <kbd>Down</kbd>: move down

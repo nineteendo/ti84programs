@@ -1,35 +1,37 @@
 # Flappy Bird
 
-With and without scrolling
+With and without scrolling.
 
-## With scrolling
+## 1. With scrolling
 
-### Files
+### 1.1. Files
 
 - [**FLAPPYB.8xp**](FLAPPYB.8xp): TI-84 Plus program
 - [**flappy_bird.txt**](flappy_bird.txt): formatted souce code
 
-### Title Screen Controls
+### 1.2. Controls
+
+#### 1.2.1. Title screen
 
 - <kbd>Enter</kbd>: start game
 
-### Controls
+#### 1.2.2. Game
 
 - <kbd>2nd</kbd>: jump
 
-## Without scrolling
+## 2. Without scrolling
 
-### Files
+### 2.1. Files
 
 - [**FLAPPY.8xp**](FLAPPY.8xp): TI-84 Plus program
 - [**flappy_pixel.txt**](flappy_pixel.txt): formatted souce code
 
-## Menu Options
+### 2.2. Menu options
 
 1. **Normal**: start normal game
 2. **Dark**: start dark game
 3. **Stop**: quit game
 
-### Controls
+### 2.3. Controls
 
 - <kbd>Enter</kbd>: jump

@@ -1,13 +1,13 @@
 # Pusher
 
-A game revolving around pushing pixels
+A game revolving around pushing pixels.
 
-## Files
+## 1. Files
 
 - [**PUSHER.8xp**](PUSHER.8xp): TI-84 Plus program
 - [**pusher.txt**](pusher.txt): formatted souce code
 
-## Pause Menu Options
+## 2. Pause menu options
 
 1. **Enter**: continue
 2. **New**: start new game
@@ -17,18 +17,14 @@ A game revolving around pushing pixels
 6. **Mutate**: modify the world randomly
 7. **Stop**: quit game
 
-## Controls
+## 3. Controls
 
-- <kbd>Up</kbd>: move up
-- <kbd>Left</kbd>: move left
-- <kbd>Right</kbd>: move right
-- <kbd>Down</kbd>: move down
+- <kbd>Left</kbd>, <kbd>4</kbd>: move left
+- <kbd>Up</kbd>, <kbd>8</kbd>: move up
+- <kbd>Right</kbd>, <kbd>6</kbd>: move right
+- <kbd>Down</kbd>, <kbd>2</kbd>: move down
 - <kbd>7</kbd>: move up left
-- <kbd>8</kbd>: move up
 - <kbd>9</kbd>: move up right
-- <kbd>4</kbd>: move left
-- <kbd>6</kbd>: move right
 - <kbd>1</kbd>: move down left
-- <kbd>2</kbd>: move down
 - <kbd>3</kbd>: move down right
 - <kbd>Enter</kbd>: pause
