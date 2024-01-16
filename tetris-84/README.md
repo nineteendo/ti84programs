@@ -1,4 +1,4 @@
-# Tetris
+# Tetris-84
 
 Original by nitacku: https://ticalc.org/archives/files/fileinfo/371/37183.html
 
@@ -10,8 +10,8 @@ Original by nitacku: https://ticalc.org/archives/files/fileinfo/371/37183.html
 ## Files
 
 - [**TETRIS.8xp**](TETRIS.8xp): TI-84 Plus program
-- [**tetris.txt**](tetris.txt): formatted souce code
-- [**tetris.md**](tetris.md): text tutorial (**Outdated**)
+- [**tetris-84.txt**](tetris-84.txt): formatted souce code
+- [**tetris-84.md**](tetris-84.md): text tutorial (**Outdated**)
 
 ## Controls
 

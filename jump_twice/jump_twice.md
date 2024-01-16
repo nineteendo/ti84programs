@@ -2,7 +2,7 @@
 
 ## Zoom
 
-Zoom: https//github.com/nineteendo/ti-84-plus-programs/tree/master/zoom
+Zoom: https://github.com/nineteendo/ti-84-plus-programs/tree/master/zoom
 
 ## Creating a moving pixel
 

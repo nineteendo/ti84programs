@@ -1,10 +1,10 @@
-# Tetris Tutorial
+# Tetris-84 Tutorial
 
 ## Zoom
 
-Zoom: https//github.com/nineteendo/ti-84-plus-programs/tree/master/zoom
+Zoom: https://github.com/nineteendo/ti-84-plus-programs/tree/master/zoom
 
-## Tetris
+## Tetris-84
 
 ```ti-basic
 {16,19→dim([A]
