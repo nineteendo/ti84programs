@@ -11,7 +11,7 @@ With 2 modes: Normal & Boxed
 
 - [**SNAKE.8xp**](SNAKE.8xp): TI-84 Plus program
 - [**snake.txt**](snake.txt): formatted souce code
-- [**Snake.md**](Snake.md): text tutorial
+- [**snake.md**](snake.md): text tutorial
 
 ## Menu Options
 

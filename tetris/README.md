@@ -1,6 +1,6 @@
 # Tetris
 
-Original by nitacku: https://www.ticalc.org/archives/files/fileinfo/371/37183.html
+Original by nitacku: https://ticalc.org/archives/files/fileinfo/371/37183.html
 
 ## Videos
 
@@ -11,6 +11,7 @@ Original by nitacku: https://www.ticalc.org/archives/files/fileinfo/371/37183.ht
 
 - [**TETRIS.8xp**](TETRIS.8xp): TI-84 Plus program
 - [**tetris.txt**](tetris.txt): formatted souce code
+- [**tetris.md**](tetris.md): text tutorial (**Outdated**)
 
 ## Controls
 

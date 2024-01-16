@@ -1,4 +1,10 @@
-# Creating a moving pixel
+# Jump Twice tutorial
+
+## Zoom
+
+Zoom: https//github.com/nineteendo/ti-84-plus-programs/tree/master/zoom
+
+## Creating a moving pixel
 
 ```ti-basic
 ClrDraw
@@ -13,7 +19,7 @@ While B≠94
 End
 ```
 
-# Loading a level
+## Loading a level
 
 ```ti-basic
 ClrDraw
@@ -34,7 +40,7 @@ Repeat B=94
 End
 ```
 
-# Controlling the pixel
+## Controlling the pixel
 
 ```ti-basic
 ClrDraw
@@ -75,13 +81,13 @@ Repeat B=94
 End
 ```
 
-# Finishing the game
+## Finishing the game
 
 ```ti-basic
 ClrDraw
 Text(–1,5,30,"Jump*2
 Text(–1,31,27,"[Enter]
-Text(57,19,"2019 Nineteendo
+Text(57,19,"2019 Nineteendo  // 1 space before Nineteendo
 1→H
 94→X
 Pause 
