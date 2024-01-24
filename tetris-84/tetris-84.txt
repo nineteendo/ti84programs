@@ -66,7 +66,7 @@ Repeat not(I
                     Y+A→Y
                     D-A→D
                 End
-                Q+K+3⁻¹5Y(11Y³-54Y²+91Y-24)(O+1→Q
+                Q+K+5Y(11Y³-54Y²+91Y-24)3⁻¹(O+1→Q
                 Q→⌊TS(4
                 P+Y→P
                 int(max(O,.1P→O

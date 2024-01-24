@@ -51,7 +51,7 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 8. **Game over detection**
 9. **Game over screen**: fill animation, then pause
 10. **Gravity**
-11. **High scores**: top 3, saves current score
+11. **High scores**: top 3, updated (not refreshed) in real time
 12. **Hold piece**: swap with next piece, indicated with `.`
 13. **Horizontal movement**
 14. **Level score multiplier**: `level + 1`
@@ -63,18 +63,20 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
     - **Triple**: `300 * multiplier`
     - **Tetris**: `1200 * multiplier`
 18. **No bugs**
-19. **Obstacle height selection**: start with height 0 - 14
-20. **Pause**: menu with restart and quit
-21. **Piece preview**: single piece
-22. **Placement points**: 1
-23. **Placement transition**: hide center of rotation
-24. **Quit**: shows stack
-25. **Restart**
-26. **Retry**
-27. **Rotation**
-28. **Sleep mode**: activates after 1000 ticks of inactivity on pause screen
-29. **Soft drop**
-30. **Visible center of rotation**: indicated with `+`
+19. **No ceiling**
+20. **Obstacle height selection**: start with height 0 - 14
+21. **Pause**: menu with restart and quit
+22. **Persistent high scores**: from OS
+23. **Piece preview**: single piece
+24. **Placement points**: 1
+25. **Placement transition**: hide center of rotation
+26. **Quit**: shows stack
+27. **Restart**
+28. **Retry**
+29. **Rotation**
+30. **Sleep mode**: activates after 1000 ticks of inactivity on pause screen
+31. **Soft drop**
+32. **Visible center of rotation**: indicated with `+`
 
 ## 6. Challenges
 
