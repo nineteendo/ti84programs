@@ -283,7 +283,7 @@ DelVar [A]DelVar Pic1Disp
 
 ## Tetris-83
 
-```ti-basic
+```diff
 {16,19→dim([A]
 Fill(1,[A]
 3→dim(⌊TS  // Execute `"→TS` if you don't see this
