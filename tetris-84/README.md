@@ -4,7 +4,7 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 
 ## 1. Videos
 
-- [Showcase (outdated)](https://youtu.be/fckcAI3UAVc)
+- [Showcase](https://youtu.be/eK8wsj_VT_w)
 - [Tutorial (outdated)](https://youtu.be/ctYHvZmyS2I)
 
 ## 2. Files
