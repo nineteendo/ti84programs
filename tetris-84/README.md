@@ -44,38 +44,38 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 1. **All tetrominoes**
 2. **Alternative rotation**
 3. **Animations**
-4. **Drop points**: `1 * fall_height`
-5. **Drought prevention**: pieces are drawn from bags, except the first
-6. **Easter eggs**: hold queue starts with a long bar
-7. **Faster levels**: `speed = min(level, 9)`
-8. **Game over detection**
-9. **Game over screen**: fill animation, then pause
-10. **Gravity**
-11. **High scores**: top 3, updated (not refreshed) in real time
-12. **Hold piece**: swap with next piece, indicated with `.`
-13. **Horizontal movement**
-14. **Level score multiplier**: `level + 1`
-15. **Level selection**: start from level 0 - 9
-16. **Line clearing**: animation
-17. **Line clear points**:
+4. **Drop**: soft drop
+5. **Drop points**: `1 * fall_height`
+6. **Drought prevention**: pieces are drawn from bags, except the first
+7. **Easter eggs**: hold queue starts with a long bar
+8. **Faster levels**: `speed = min(level, 9)`
+9. **Game over detection**
+10. **Game over screen**: fill animation, then pause
+11. **Gravity**
+12. **High scores**: top 3, updated (not refreshed) in real time
+13. **Hold piece**: swap with next piece, indicated with `.`
+14. **Horizontal movement**
+15. **Level score multiplier**: `level + 1`
+16. **Level selection**: start from level 0 - 9
+17. **Line clearing**: animation
+18. **Line clear points**:
     - **Single**: `40 * multiplier`
     - **Double**: `100 * multiplier`
     - **Triple**: `300 * multiplier`
     - **Tetris**: `1200 * multiplier`
-18. **No bugs**
-19. **No ceiling**
-20. **Obstacle height selection**: start with height 0 - 14
-21. **Pause**: menu with restart and quit
-22. **Persistent high scores**: from OS
-23. **Piece preview**: single piece
-24. **Placement points**: 1
-25. **Placement transition**: hide center of rotation
-26. **Quit**: shows stack
-27. **Restart**
-28. **Retry**
-29. **Rotation**
-30. **Sleep mode**: activates after 1000 ticks of inactivity on pause screen
-31. **Soft drop**
+19. **No bugs**
+20. **No ceiling**
+21. **Obstacle height selection**: start with height 0 - 14
+22. **Pause**: menu with restart and quit
+23. **Persistent high scores**: from OS
+24. **Piece preview**: single piece
+25. **Placement points**: 1
+26. **Placement transition**: hide center of rotation
+27. **Quit**: shows stack
+28. **Restart**
+29. **Retry**
+30. **Rotation**
+31. **Sleep mode**: activates after 1000 ticks of inactivity on pause screen
 32. **Visible center of rotation**: indicated with `+`
 
 ## 6. Challenges
